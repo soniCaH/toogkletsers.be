@@ -5,16 +5,21 @@
 
   <body>
 
-    {% include header.html %}
+    {% include stripes.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="content">
+
+      {% include header.html %}
+
+      <div class="page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
       </div>
+
+      {% include footer.html %}
+
     </div>
-
-    {% include footer.html %}
-
   </body>
 
 </html>

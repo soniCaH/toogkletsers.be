@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.height {
+  height: 100%;
+  z-index: -100;
+}
+.stripes {
+  background: #BADA55;
+  height: 100%;
+}
+.content {
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
