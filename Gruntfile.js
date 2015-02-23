@@ -14,19 +14,30 @@ module.exports = function(grunt) {
         root: './'
       },
 
-    sass: {
-      options: {
-        includePaths: ['bower_components/foundation/scss']
-      },
-      dist: {
-        options: {
-          outputStyle: 'compressed'
+
+      // SCSS
+      compass: {
+        dev: {
+          options: {
+            config: 'config.rb',
+            outputStyle: 'expanded',
+            debugInfo: true,
+            environment: 'development',
+            sassDir: '<%= project.root %>/scss',
+            cssDir: '<%= project.root %>/css'
+          }
         },
-        files: {
-          'css/app.css': 'scss/app.scss'
+        prod: {
+          options: {
+            config: 'config.rb',
+            outputStyle: 'compressed',
+            debugInfo: false,
+            environment: 'production',
+            sassDir: '<%= project.root %>/scss',
+            cssDir: '<%= project.root %>/css'
+          }
         }
-      }
-    },
+      },
 
     pleeease: {
         custom: {
@@ -56,7 +67,7 @@ module.exports = function(grunt) {
           },
           files: [{
             expand: true,
-            src: ['<%= project.root %>/_assets/images/**/*.{png,jpg,gif,jpeg}']
+            src: ['<%= project.root %>/images/**/*.{png,jpg,gif,jpeg}']
           }]
         }
       },
@@ -70,7 +81,7 @@ module.exports = function(grunt) {
               expand: true,
               cwd: '<%= project.root %>/_assets/images/svg/',
               src: ['**/*.svg'],
-              dest: '<%= project.root %>/_assets/images/svgmin'
+              dest: '<%= project.root %>/images/svgmin'
             }
           ]
         }
@@ -82,9 +93,9 @@ module.exports = function(grunt) {
           files: [
             {
               expand: true,
-              cwd: '<%= project.root %>/_assets/images/svgmin/icons',
+              cwd: '<%= project.root %>/images/svgmin/icons',
               src: ['**/*.svg'],
-              dest: '<%= project.root %>/_assets/images/icons'
+              dest: '<%= project.root %>/images/icons'
             }
           ]
         }
@@ -93,19 +104,19 @@ module.exports = function(grunt) {
     watch: {
       grunt: { files: ['Gruntfile.js'] },
 
-      sass: {
+      compass: {
         files: 'scss/**/*.scss',
-        tasks: ['sass']
+        tasks: ['compass:dev', 'pleeease']
       },
 
       imagemin: {
-        files: '_assets/images/**/*.{png,jpg,gif}',
+        files: 'images/**/*.{png,jpg,gif}',
         tasks: ['imagemin']
       }
     }
   });
 
-  grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-grunticon');
   grunt.loadNpmTasks('grunt-pleeease');
@@ -116,7 +127,7 @@ module.exports = function(grunt) {
     'svgmin',
     'grunticon',
     'imagemin',
-    'sass',
+    'compass:dev',
     'pleeease'
   ]);
   grunt.registerTask('default', ['build','watch']);

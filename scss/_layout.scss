@@ -10,6 +10,24 @@
   }
 }
 
+.dots_bg {
+  @include bg-image-svg-png('icons', 'circle-white');
+
+  background-repeat: repeat-x;
+  background-size: 8px;
+  background-position: 0 50%;
+}
+
+.star-players {
+  @extend .dots_bg;
+  color: #FFF;
+  text-align: center;
+
+  span {
+    background: $color-green-pastel;
+    padding: 0 20px;
+  }
+}
 
 .content {
   width: 85%;

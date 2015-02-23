@@ -10,3 +10,13 @@
   height: 0;
   padding-bottom: $height;
 }
+
+@mixin bg-image-svg-png($subfolder, $filename) {
+  $full-png: inline-image($subfolder + '/png/' + $filename + '.png');
+  $full-svg: inline-image('svgmin/' + $subfolder + '/' + $filename + '.svg');
+
+  background-image: $full-png;
+  html.inlinesvg & {
+    background-image: $full-svg;
+  }
+}
