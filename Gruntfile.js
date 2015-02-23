@@ -1,6 +1,18 @@
 module.exports = function(grunt) {
+  var mozjpeg = require('imagemin-mozjpeg');
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+
+      /**
+       * Set project object
+       *
+       * Variables:
+       * <%= project.root %> : The root path of the project.
+       */
+      project: {
+        root: './'
+      },
 
     sass: {
       options: {
@@ -16,20 +28,67 @@ module.exports = function(grunt) {
       }
     },
 
+    pleeease: {
+        custom: {
+          options: {
+            "browsers": ["ie 8"],
+            autoprefixer: {'browsers': ['last 4 versions', 'ios 6']},
+            filters: {'oldIE': true},
+            minifier: false,
+            pseudoElements: true,
+            opacity: true,
+            mqpacker: true,
+            calc: true,
+            colors: true
+          },
+          files: {
+            '<%= project.root %>/css/app.css': '<%= project.root %>/css/app.css',
+          }
+        }
+      },
+
     imagemin: {
-      static: {                         // Another target                   // Target
-        options: {                       // Target options
-          optimizationLevel: 7,
-          svgoPlugins: [{ removeViewBox: false }],
-        },
-        files: [{
-          expand: true,                  // Enable dynamic expansion
-          cwd: '_assets/images/',                   // Src matches are relative to this path
-          src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
-          dest: 'images/'                  // Destination path prefix
-        }]
-      }
-    },
+        dynamic: {
+          options: {
+            optimizationLevel: 5,
+            svgoPlugins: [{removeViewBox: true}],
+            use: [mozjpeg()]
+          },
+          files: [{
+            expand: true,
+            src: ['<%= project.root %>/_assets/images/**/*.{png,jpg,gif,jpeg}']
+          }]
+        }
+      },
+
+
+    // SVG Minification
+      svgmin: {
+        multiple: {
+          files: [
+            {
+              expand: true,
+              cwd: '<%= project.root %>/_assets/images/svg/',
+              src: ['**/*.svg'],
+              dest: '<%= project.root %>/_assets/images/svgmin'
+            }
+          ]
+        }
+      },
+
+      // SVG Fallback
+      grunticon: {
+        icons: {
+          files: [
+            {
+              expand: true,
+              cwd: '<%= project.root %>/_assets/images/svgmin/icons',
+              src: ['**/*.svg'],
+              dest: '<%= project.root %>/_assets/images/icons'
+            }
+          ]
+        }
+      },
 
     watch: {
       grunt: { files: ['Gruntfile.js'] },
@@ -47,9 +106,18 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-svgmin');
+  grunt.loadNpmTasks('grunt-grunticon');
+  grunt.loadNpmTasks('grunt-pleeease');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
-  grunt.registerTask('build', ['sass', 'imagemin']);
+  grunt.registerTask('build', [
+    'svgmin',
+    'grunticon',
+    'imagemin',
+    'sass',
+    'pleeease'
+  ]);
   grunt.registerTask('default', ['build','watch']);
 }

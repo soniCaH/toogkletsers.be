@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    pleeease (0.0.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pleeease (~> 0.0.3)
