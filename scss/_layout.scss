@@ -2,6 +2,14 @@
   background: $color-green-pastel;
 }
 
+.page__footer {
+  background: $color-green;
+
+  .sponsors {
+    background: $color-green-darkest;
+  }
+}
+
 
 .content {
   width: 85%;
