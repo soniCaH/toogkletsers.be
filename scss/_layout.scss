@@ -1,19 +1,16 @@
-html, body {
-  height: 100%;
-  margin: 0;
+.page__header {
+  background: $color-green-pastel;
 }
-.height {
-  height: 100%;
-  z-index: -100;
-}
-.stripes {
-  background: #BADA55;
-  height: 100%;
-}
+
+
 .content {
+  width: 85%;
+  max-width: 1600px;
   margin: 0 auto;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  text-align: center;
+  position: relative;
+  background-size: 25%;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(0deg, rgba(31, 151, 61, 1) 50%, transparent 50%, transparent);
+  background-image: -moz-linear-gradient(0deg, rgba(31, 151, 61, 1) 50%, transparent 50%, transparent);
+  background-image: linear-gradient(90deg, rgba(31, 151, 61, 1) 50%, transparent 50%, transparent);
 }
