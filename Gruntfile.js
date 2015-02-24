@@ -1,117 +1,152 @@
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   var mozjpeg = require('imagemin-mozjpeg');
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
-      /**
-       * Set project object
-       *
-       * Variables:
-       * <%= project.root %> : The root path of the project.
-       */
-      project: {
-        root: './'
-      },
+    /**
+     * Set project object
+     *
+     * Variables:
+     * <%= project.root %> : The root path of the project.
+     */
+    project: {
+      root: './'
+    },
 
 
-      // SCSS
-      compass: {
-        dev: {
-          options: {
-            config: 'config.rb',
-            outputStyle: 'expanded',
-            debugInfo: true,
-            environment: 'development',
-            sassDir: '<%= project.root %>/scss',
-            cssDir: '<%= project.root %>/css'
-          }
-        },
-        prod: {
-          options: {
-            config: 'config.rb',
-            outputStyle: 'compressed',
-            debugInfo: false,
-            environment: 'production',
-            sassDir: '<%= project.root %>/scss',
-            cssDir: '<%= project.root %>/css'
-          }
+    // SCSS
+    compass: {
+      dev: {
+        options: {
+          config: 'config.rb',
+          outputStyle: 'expanded',
+          debugInfo: true,
+          environment: 'development',
+          sassDir: '<%= project.root %>/scss',
+          cssDir: '<%= project.root %>/css'
         }
       },
+      prod: {
+        options: {
+          config: 'config.rb',
+          outputStyle: 'compressed',
+          debugInfo: false,
+          environment: 'production',
+          sassDir: '<%= project.root %>/scss',
+          cssDir: '<%= project.root %>/css'
+        }
+      }
+    },
 
     pleeease: {
-        custom: {
-          options: {
-            "browsers": ["ie 8"],
-            autoprefixer: {'browsers': ['last 4 versions', 'ios 6']},
-            filters: {'oldIE': true},
-            minifier: false,
-            pseudoElements: true,
-            opacity: true,
-            mqpacker: true,
-            calc: true,
-            colors: true
-          },
-          files: {
-            '<%= project.root %>/css/app.css': '<%= project.root %>/css/app.css',
-          }
+      custom: {
+        options: {
+          "browsers": ["ie 8"],
+          autoprefixer: {'browsers': ['last 4 versions', 'ios 6']},
+          filters: {'oldIE': true},
+          minifier: false,
+          pseudoElements: true,
+          opacity: true,
+          mqpacker: true,
+          calc: true,
+          colors: true
+        },
+        files: {
+          '<%= project.root %>/css/app.css': '<%= project.root %>/css/app.css'
         }
-      },
+      }
+    },
 
     imagemin: {
-        dynamic: {
-          options: {
-            optimizationLevel: 5,
-            svgoPlugins: [{removeViewBox: true}],
-            use: [mozjpeg()]
-          },
-          files: [{
-            expand: true,
-            src: ['<%= project.root %>/images/**/*.{png,jpg,gif,jpeg}']
-          }]
-        }
-      },
+      dynamic: {
+        options: {
+          optimizationLevel: 5,
+          svgoPlugins: [{removeViewBox: true}],
+          use: [mozjpeg()]
+        },
+        files: [{
+          expand: true,
+          src: ['<%= project.root %>/images/**/*.{png,jpg,gif,jpeg}']
+        }]
+      }
+    },
 
 
     // SVG Minification
-      svgmin: {
-        multiple: {
-          files: [
-            {
-              expand: true,
-              cwd: '<%= project.root %>/_assets/images/svg/',
-              src: ['**/*.svg'],
-              dest: '<%= project.root %>/images/svgmin'
-            }
+    svgmin: {
+      multiple: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= project.root %>/_assets/images/svg/',
+            src: ['**/*.svg'],
+            dest: '<%= project.root %>/images/svgmin'
+          }
+        ]
+      }
+    },
+
+    // SVG Fallback
+    grunticon: {
+      icons: {
+        files: [
+          {
+            expand: true,
+            cwd: '<%= project.root %>/images/svgmin/icons',
+            src: ['**/*.svg'],
+            dest: '<%= project.root %>/images/icons'
+          }
+        ]
+      }
+    },
+
+    // JS
+    uglify: {
+      options: {
+        report: 'min'
+      },
+      app: {
+        files: {
+          '<%= project.root %>/js/app.min.js': [
+            '<%= project.root %>/bower_components/jquery/dist/jquery.min.js',
+            '<%= project.root %>/bower_components/modernizr/modernizr.js',
+            '<%= project.root %>/bower_components/foundation/js/foundation.min.js',
+            '<%= project.root %>/bower_components/foundation/js/foundation/foundation.interchange.js',
+            '<%= project.root %>/_assets/js/app.js',
           ]
         }
-      },
+      }
+    },
 
-      // SVG Fallback
-      grunticon: {
-        icons: {
-          files: [
-            {
-              expand: true,
-              cwd: '<%= project.root %>/images/svgmin/icons',
-              src: ['**/*.svg'],
-              dest: '<%= project.root %>/images/icons'
-            }
-          ]
-        }
-      },
 
+    // Automate some tasks during development (if files change).
     watch: {
-      grunt: { files: ['Gruntfile.js'] },
-
-      compass: {
-        files: 'scss/**/*.scss',
-        tasks: ['compass:dev', 'pleeease']
+      svg: {
+        files: ['<%= project.root %>/images/svg/**/*.svg'],
+        tasks: ['svgmin', 'grunticon', 'compass:dev', 'pleeease'],
+        options: {
+          livereload: true
+        }
       },
 
-      imagemin: {
-        files: 'images/**/*.{png,jpg,gif}',
-        tasks: ['imagemin']
+      style: {
+        files: [
+          '<%= project.root %>/sass/*.scss',
+          '<%= project.root %>/sass/**/*.scss'
+        ],
+        tasks: ['compass:dev', 'pleeease'],
+        options: {
+          livereload: true
+        }
+      },
+
+      scripts: {
+        files: ['<%= project.root %>/_assets/js/*.js'],
+        tasks: ['uglify:app'],
+        options: {
+          livereload: true
+        }
       }
     }
   });
@@ -119,6 +154,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-grunticon');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-pleeease');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
@@ -128,7 +164,9 @@ module.exports = function(grunt) {
     'grunticon',
     'imagemin',
     'compass:dev',
-    'pleeease'
+    'pleeease',
+    'uglify'
   ]);
-  grunt.registerTask('default', ['build','watch']);
+
+  grunt.registerTask('default', ['build', 'watch']);
 }

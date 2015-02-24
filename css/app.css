@@ -129,6 +129,8 @@ select {
   max-width: 1066px;
   max-width: 1066px;
   max-width: 1066px;
+  max-width: 1066px;
+  max-width: 1066px;
   max-width: 66.66667rem;
 }
 .row:before, .row:after {
@@ -153,7 +155,11 @@ select {
   margin-left: -13px;
   margin-left: -13px;
   margin-left: -13px;
+  margin-left: -13px;
+  margin-left: -13px;
   margin-left: -0.83333rem;
+  margin-right: -13px;
+  margin-right: -13px;
   margin-right: -13px;
   margin-right: -13px;
   margin-right: -13px;
@@ -188,7 +194,11 @@ select {
   padding-left: 13px;
   padding-left: 13px;
   padding-left: 13px;
+  padding-left: 13px;
+  padding-left: 13px;
   padding-left: 0.83333rem;
+  padding-right: 13px;
+  padding-right: 13px;
   padding-right: 13px;
   padding-right: 13px;
   padding-right: 13px;
@@ -227,9 +237,13 @@ select {
   padding: 14px;
   padding: 14px;
   padding: 14px;
+  padding: 14px;
+  padding: 14px;
   padding: 0.88889rem;
   display: block;
   font-family: Ubuntu, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-size: 14px;
   font-size: 14px;
   font-size: 14px;
   font-size: 14px;
@@ -241,6 +255,8 @@ select {
 }
 .accordion .accordion-navigation > .content, .accordion dd > .content {
   display: none;
+  padding: 13px;
+  padding: 13px;
   padding: 13px;
   padding: 13px;
   padding: 13px;
@@ -260,13 +276,19 @@ select {
   margin-bottom: 17px;
   margin-bottom: 17px;
   margin-bottom: 17px;
+  margin-bottom: 17px;
+  margin-bottom: 17px;
   margin-bottom: 1.11111rem;
   position: relative;
   padding: 12px 21px 12px 12px;
   padding: 12px 21px 12px 12px;
   padding: 12px 21px 12px 12px;
   padding: 12px 21px 12px 12px;
+  padding: 12px 21px 12px 12px;
+  padding: 12px 21px 12px 12px;
   padding: 0.77778rem 1.33333rem 0.77778rem 0.77778rem;
+  font-size: 11px;
+  font-size: 11px;
   font-size: 11px;
   font-size: 11px;
   font-size: 11px;
@@ -282,6 +304,8 @@ select {
   font-size: 19px;
   font-size: 19px;
   font-size: 19px;
+  font-size: 19px;
+  font-size: 19px;
   font-size: 1.22222rem;
   padding: 0 6px 4px;
   line-height: .9;
@@ -291,7 +315,11 @@ select {
   margin-top: -9px;
   margin-top: -9px;
   margin-top: -9px;
+  margin-top: -9px;
+  margin-top: -9px;
   margin-top: -0.61111rem;
+  right: 3px;
+  right: 3px;
   right: 3px;
   right: 3px;
   right: 3px;
@@ -348,6 +376,8 @@ select {
   margin: 0 -8px;
   margin: 0 -8px;
   margin: 0 -8px;
+  margin: 0 -8px;
+  margin: 0 -8px;
   margin: 0 -0.55556rem;
 }
 [class*="block-grid-"]:before, [class*="block-grid-"]:after {
@@ -365,10 +395,14 @@ select {
   padding: 0 8px 17px;
   padding: 0 8px 17px;
   padding: 0 8px 17px;
+  padding: 0 8px 17px;
+  padding: 0 8px 17px;
   padding: 0 0.55556rem 1.11111rem;
 }
 .breadcrumbs {
   display: block;
+  padding: 8px 12px 8px;
+  padding: 8px 12px 8px;
   padding: 8px 12px 8px;
   padding: 8px 12px 8px;
   padding: 8px 12px 8px;
@@ -390,7 +424,11 @@ select {
   font-size: 9px;
   font-size: 9px;
   font-size: 9px;
+  font-size: 9px;
+  font-size: 9px;
   font-size: 0.61111rem;
+  line-height: 9px;
+  line-height: 9px;
   line-height: 9px;
   line-height: 9px;
   line-height: 9px;
@@ -435,6 +473,8 @@ select {
   margin: 0 10px;
   margin: 0 10px;
   margin: 0 10px;
+  margin: 0 10px;
+  margin: 0 10px;
   margin: 0 0.66667rem;
   position: relative;
   top: 1px;
@@ -459,6 +499,8 @@ button, .button {
   margin: 0 0 17px;
   margin: 0 0 17px;
   margin: 0 0 17px;
+  margin: 0 0 17px;
+  margin: 0 0 17px;
   margin: 0 0 1.11111rem;
   position: relative;
   text-decoration: none;
@@ -471,7 +513,11 @@ button, .button {
   padding-top: 14px;
   padding-top: 14px;
   padding-top: 14px;
+  padding-top: 14px;
+  padding-top: 14px;
   padding-top: 0.88889rem;
+  padding-right: 28px;
+  padding-right: 28px;
   padding-right: 28px;
   padding-right: 28px;
   padding-right: 28px;
@@ -481,12 +527,18 @@ button, .button {
   padding-bottom: 15px;
   padding-bottom: 15px;
   padding-bottom: 15px;
+  padding-bottom: 15px;
+  padding-bottom: 15px;
   padding-bottom: 0.94444rem;
   padding-left: 28px;
   padding-left: 28px;
   padding-left: 28px;
   padding-left: 28px;
+  padding-left: 28px;
+  padding-left: 28px;
   padding-left: 1.77778rem;
+  font-size: 14px;
+  font-size: 14px;
   font-size: 14px;
   font-size: 14px;
   font-size: 14px;
@@ -563,7 +615,11 @@ button.large, .button.large {
   padding-top: 16px;
   padding-top: 16px;
   padding-top: 16px;
+  padding-top: 16px;
+  padding-top: 16px;
   padding-top: 1rem;
+  padding-right: 32px;
+  padding-right: 32px;
   padding-right: 32px;
   padding-right: 32px;
   padding-right: 32px;
@@ -573,12 +629,18 @@ button.large, .button.large {
   padding-bottom: 16px;
   padding-bottom: 16px;
   padding-bottom: 16px;
+  padding-bottom: 16px;
+  padding-bottom: 16px;
   padding-bottom: 1.05556rem;
   padding-left: 32px;
   padding-left: 32px;
   padding-left: 32px;
   padding-left: 32px;
+  padding-left: 32px;
+  padding-left: 32px;
   padding-left: 2rem;
+  font-size: 17px;
+  font-size: 17px;
   font-size: 17px;
   font-size: 17px;
   font-size: 17px;
@@ -590,7 +652,11 @@ button.small, .button.small {
   padding-top: 12px;
   padding-top: 12px;
   padding-top: 12px;
+  padding-top: 12px;
+  padding-top: 12px;
   padding-top: 0.77778rem;
+  padding-right: 24px;
+  padding-right: 24px;
   padding-right: 24px;
   padding-right: 24px;
   padding-right: 24px;
@@ -600,12 +666,18 @@ button.small, .button.small {
   padding-bottom: 13px;
   padding-bottom: 13px;
   padding-bottom: 13px;
+  padding-bottom: 13px;
+  padding-bottom: 13px;
   padding-bottom: 0.83333rem;
   padding-left: 24px;
   padding-left: 24px;
   padding-left: 24px;
   padding-left: 24px;
+  padding-left: 24px;
+  padding-left: 24px;
   padding-left: 1.55556rem;
+  font-size: 11px;
+  font-size: 11px;
   font-size: 11px;
   font-size: 11px;
   font-size: 11px;
@@ -617,7 +689,11 @@ button.tiny, .button.tiny {
   padding-top: 8px;
   padding-top: 8px;
   padding-top: 8px;
+  padding-top: 8px;
+  padding-top: 8px;
   padding-top: 0.55556rem;
+  padding-right: 17px;
+  padding-right: 17px;
   padding-right: 17px;
   padding-right: 17px;
   padding-right: 17px;
@@ -627,12 +703,18 @@ button.tiny, .button.tiny {
   padding-bottom: 9px;
   padding-bottom: 9px;
   padding-bottom: 9px;
+  padding-bottom: 9px;
+  padding-bottom: 9px;
   padding-bottom: 0.61111rem;
   padding-left: 17px;
   padding-left: 17px;
   padding-left: 17px;
   padding-left: 17px;
+  padding-left: 17px;
+  padding-left: 17px;
   padding-left: 1.11111rem;
+  font-size: 9px;
+  font-size: 9px;
   font-size: 9px;
   font-size: 9px;
   font-size: 9px;
@@ -650,10 +732,14 @@ button.left-align, .button.left-align {
   text-indent: 10px;
   text-indent: 10px;
   text-indent: 10px;
+  text-indent: 10px;
+  text-indent: 10px;
   text-indent: 0.66667rem;
 }
 button.right-align, .button.right-align {
   text-align: right;
+  padding-right: 10px;
+  padding-right: 10px;
   padding-right: 10px;
   padding-right: 10px;
   padding-right: 10px;
@@ -1071,7 +1157,11 @@ button::-moz-focus-inner {
   -webkit-top-left-radius: 14px;
   -webkit-top-left-radius: 14px;
   -webkit-top-left-radius: 14px;
+  -webkit-top-left-radius: 14px;
+  -webkit-top-left-radius: 14px;
   -webkit-top-left-radius: 0.88889rem;
+  -webkit-top-right-radius: 14px;
+  -webkit-top-right-radius: 14px;
   -webkit-top-right-radius: 14px;
   -webkit-top-right-radius: 14px;
   -webkit-top-right-radius: 14px;
@@ -1081,7 +1171,11 @@ button::-moz-focus-inner {
   border-top-left-radius: 14px;
   border-top-left-radius: 14px;
   border-top-left-radius: 14px;
+  border-top-left-radius: 14px;
+  border-top-left-radius: 14px;
   border-top-left-radius: 0.88889rem;
+  border-top-right-radius: 14px;
+  border-top-right-radius: 14px;
   border-top-right-radius: 14px;
   border-top-right-radius: 14px;
   border-top-right-radius: 14px;
@@ -1093,7 +1187,11 @@ button::-moz-focus-inner {
   -webkit-bottom-left-radius: 14px;
   -webkit-bottom-left-radius: 14px;
   -webkit-bottom-left-radius: 14px;
+  -webkit-bottom-left-radius: 14px;
+  -webkit-bottom-left-radius: 14px;
   -webkit-bottom-left-radius: 0.88889rem;
+  -webkit-bottom-right-radius: 14px;
+  -webkit-bottom-right-radius: 14px;
   -webkit-bottom-right-radius: 14px;
   -webkit-bottom-right-radius: 14px;
   -webkit-bottom-right-radius: 14px;
@@ -1103,7 +1201,11 @@ button::-moz-focus-inner {
   border-bottom-left-radius: 14px;
   border-bottom-left-radius: 14px;
   border-bottom-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-bottom-left-radius: 14px;
   border-bottom-left-radius: 0.88889rem;
+  border-bottom-right-radius: 14px;
+  border-bottom-right-radius: 14px;
   border-bottom-right-radius: 14px;
   border-bottom-right-radius: 14px;
   border-bottom-right-radius: 14px;
@@ -1119,6 +1221,8 @@ button::-moz-focus-inner {
 }
 .button-bar .button-group {
   float: left;
+  margin-right: 8px;
+  margin-right: 8px;
   margin-right: 8px;
   margin-right: 8px;
   margin-right: 8px;
@@ -1242,6 +1346,8 @@ button::-moz-focus-inner {
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 0.77778rem;
   z-index: 89;
   margin-top: 2px;
@@ -1302,6 +1408,8 @@ button::-moz-focus-inner {
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 0.77778rem;
   z-index: 89;
   margin-top: 0;
@@ -1351,6 +1459,8 @@ button::-moz-focus-inner {
   height: auto;
   background: #FFFFFF;
   border: solid 1px #cccccc;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -1410,6 +1520,8 @@ button::-moz-focus-inner {
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 0.77778rem;
   z-index: 89;
   margin-top: -2px;
@@ -1457,8 +1569,12 @@ button::-moz-focus-inner {
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 0.77778rem;
   cursor: pointer;
+  line-height: 16px;
+  line-height: 16px;
   line-height: 16px;
   line-height: 16px;
   line-height: 16px;
@@ -1478,6 +1594,8 @@ button::-moz-focus-inner {
   padding: 8px;
   padding: 8px;
   padding: 8px;
+  padding: 8px;
+  padding: 8px;
   padding: 0.5rem;
   color: #555555;
 }
@@ -1491,12 +1609,16 @@ button::-moz-focus-inner {
   padding: 17px;
   padding: 17px;
   padding: 17px;
+  padding: 17px;
+  padding: 17px;
   padding: 1.11111rem;
   width: 100%;
   height: auto;
   max-height: none;
   background: #FFFFFF;
   border: solid 1px #cccccc;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -1537,6 +1659,8 @@ button::-moz-focus-inner {
   padding-right: 50px;
   padding-right: 50px;
   padding-right: 50px;
+  padding-right: 50px;
+  padding-right: 50px;
   padding-right: 3.16667rem;
 }
 .dropdown.button:after, button.dropdown:after {
@@ -1554,12 +1678,18 @@ button::-moz-focus-inner {
   border-width: 5px;
   border-width: 5px;
   border-width: 5px;
+  border-width: 5px;
+  border-width: 5px;
   border-width: 0.33333rem;
   right: 20px;
   right: 20px;
   right: 20px;
   right: 20px;
+  right: 20px;
+  right: 20px;
   right: 1.25rem;
+  margin-top: -2px;
+  margin-top: -2px;
   margin-top: -2px;
   margin-top: -2px;
   margin-top: -2px;
@@ -1574,9 +1704,13 @@ button::-moz-focus-inner {
   padding-right: 37px;
   padding-right: 37px;
   padding-right: 37px;
+  padding-right: 37px;
+  padding-right: 37px;
   padding-right: 2.33333rem;
 }
 .dropdown.button.tiny:after, button.dropdown.tiny:after {
+  border-width: 5px;
+  border-width: 5px;
   border-width: 5px;
   border-width: 5px;
   border-width: 5px;
@@ -1586,7 +1720,11 @@ button::-moz-focus-inner {
   right: 16px;
   right: 16px;
   right: 16px;
+  right: 16px;
+  right: 16px;
   right: 1rem;
+  margin-top: -1px;
+  margin-top: -1px;
   margin-top: -1px;
   margin-top: -1px;
   margin-top: -1px;
@@ -1601,9 +1739,13 @@ button::-moz-focus-inner {
   padding-right: 43px;
   padding-right: 43px;
   padding-right: 43px;
+  padding-right: 43px;
+  padding-right: 43px;
   padding-right: 2.72222rem;
 }
 .dropdown.button.small:after, button.dropdown.small:after {
+  border-width: 6px;
+  border-width: 6px;
   border-width: 6px;
   border-width: 6px;
   border-width: 6px;
@@ -1613,7 +1755,11 @@ button::-moz-focus-inner {
   right: 18px;
   right: 18px;
   right: 18px;
+  right: 18px;
+  right: 18px;
   right: 1.16667rem;
+  margin-top: -2px;
+  margin-top: -2px;
   margin-top: -2px;
   margin-top: -2px;
   margin-top: -2px;
@@ -1628,9 +1774,13 @@ button::-moz-focus-inner {
   padding-right: 51px;
   padding-right: 51px;
   padding-right: 51px;
+  padding-right: 51px;
+  padding-right: 51px;
   padding-right: 3.22222rem;
 }
 .dropdown.button.large:after, button.dropdown.large:after {
+  border-width: 4px;
+  border-width: 4px;
   border-width: 4px;
   border-width: 4px;
   border-width: 4px;
@@ -1640,7 +1790,11 @@ button::-moz-focus-inner {
   right: 24px;
   right: 24px;
   right: 24px;
+  right: 24px;
+  right: 24px;
   right: 1.52778rem;
+  margin-top: -2px;
+  margin-top: -2px;
   margin-top: -2px;
   margin-top: -2px;
   margin-top: -2px;
@@ -1659,9 +1813,13 @@ button::-moz-focus-inner {
   padding-top: 22px;
   padding-top: 22px;
   padding-top: 22px;
+  padding-top: 22px;
+  padding-top: 22px;
   padding-top: 1.38889rem;
   padding-bottom: 67.5%;
   height: 0;
+  margin-bottom: 14px;
+  margin-bottom: 14px;
   margin-bottom: 14px;
   margin-bottom: 14px;
   margin-bottom: 14px;
@@ -1692,6 +1850,8 @@ form {
   margin: 0 0 14px;
   margin: 0 0 14px;
   margin: 0 0 14px;
+  margin: 0 0 14px;
+  margin: 0 0 14px;
   margin: 0 0 0.88889rem;
 }
 
@@ -1701,10 +1861,14 @@ form .row .row {
   margin: 0 -7px;
   margin: 0 -7px;
   margin: 0 -7px;
+  margin: 0 -7px;
+  margin: 0 -7px;
   margin: 0 -0.44444rem;
 }
 form .row .row .column,
 form .row .row .columns {
+  padding: 0 7px;
+  padding: 0 7px;
   padding: 0 7px;
   padding: 0 7px;
   padding: 0 7px;
@@ -1732,11 +1896,15 @@ form .row textarea.columns {
   padding-left: 7px;
   padding-left: 7px;
   padding-left: 7px;
+  padding-left: 7px;
+  padding-left: 7px;
   padding-left: 0.44444rem;
 }
 
 /* Label Styles */
 label {
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -1759,7 +1927,11 @@ label.inline {
   margin: 0 0 14px 0;
   margin: 0 0 14px 0;
   margin: 0 0 14px 0;
+  margin: 0 0 14px 0;
+  margin: 0 0 14px 0;
   margin: 0 0 0.88889rem 0;
+  padding: 8px 0;
+  padding: 8px 0;
   padding: 8px 0;
   padding: 8px 0;
   padding: 8px 0;
@@ -1788,12 +1960,18 @@ label small {
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 0.77778rem;
   height: 32px;
   height: 32px;
   height: 32px;
   height: 32px;
+  height: 32px;
+  height: 32px;
   height: 2.05556rem;
+  line-height: 32px;
+  line-height: 32px;
   line-height: 32px;
   line-height: 32px;
   line-height: 32px;
@@ -1877,7 +2055,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 0.77778rem;
+  margin: 0 0 14px 0;
+  margin: 0 0 14px 0;
   margin: 0 0 14px 0;
   margin: 0 0 14px 0;
   margin: 0 0 14px 0;
@@ -1887,7 +2069,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   padding: 7px;
   padding: 7px;
   padding: 7px;
+  padding: 7px;
+  padding: 7px;
   padding: 0.44444rem;
+  height: 32px;
+  height: 32px;
   height: 32px;
   height: 32px;
   height: 32px;
@@ -2011,7 +2197,11 @@ select {
   padding: 7px;
   padding: 7px;
   padding: 7px;
+  padding: 7px;
+  padding: 7px;
   padding: 0.44444rem;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -2021,6 +2211,8 @@ select {
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
+  height: 32px;
+  height: 32px;
   height: 32px;
   height: 32px;
   height: 32px;
@@ -2054,6 +2246,8 @@ select {
   margin: 0 0 14px 0;
   margin: 0 0 14px 0;
   margin: 0 0 14px 0;
+  margin: 0 0 14px 0;
+  margin: 0 0 14px 0;
   margin: 0 0 0.88889rem 0;
 }
 input[type="checkbox"] + label,
@@ -2063,7 +2257,11 @@ input[type="radio"] + label {
   margin-left: 7px;
   margin-left: 7px;
   margin-left: 7px;
+  margin-left: 7px;
+  margin-left: 7px;
   margin-left: 0.44444rem;
+  margin-right: 14px;
+  margin-right: 14px;
   margin-right: 14px;
   margin-right: 14px;
   margin-right: 14px;
@@ -2086,7 +2284,11 @@ fieldset {
   padding: 17px;
   padding: 17px;
   padding: 17px;
+  padding: 17px;
+  padding: 17px;
   padding: 1.11111rem;
+  margin: 16px 0;
+  margin: 16px 0;
   margin: 16px 0;
   margin: 16px 0;
   margin: 16px 0;
@@ -2100,8 +2302,12 @@ fieldset legend {
   padding: 0 2px;
   padding: 0 2px;
   padding: 0 2px;
+  padding: 0 2px;
+  padding: 0 2px;
   padding: 0 0.16667rem;
   margin: 0;
+  margin-left: -2px;
+  margin-left: -2px;
   margin-left: -2px;
   margin-left: -2px;
   margin-left: -2px;
@@ -2116,13 +2322,19 @@ fieldset legend {
   padding: 5px 8px 8px;
   padding: 5px 8px 8px;
   padding: 5px 8px 8px;
+  padding: 5px 8px 8px;
+  padding: 5px 8px 8px;
   padding: 0.33333rem 0.5rem 0.5rem;
   margin-top: -1px;
   margin-bottom: 14px;
   margin-bottom: 14px;
   margin-bottom: 14px;
   margin-bottom: 14px;
+  margin-bottom: 14px;
+  margin-bottom: 14px;
   margin-bottom: 0.88889rem;
+  font-size: 10px;
+  font-size: 10px;
   font-size: 10px;
   font-size: 10px;
   font-size: 10px;
@@ -2142,13 +2354,19 @@ span.error, small.error {
   padding: 5px 8px 8px;
   padding: 5px 8px 8px;
   padding: 5px 8px 8px;
+  padding: 5px 8px 8px;
+  padding: 5px 8px 8px;
   padding: 0.33333rem 0.5rem 0.5rem;
   margin-top: -1px;
   margin-bottom: 14px;
   margin-bottom: 14px;
   margin-bottom: 14px;
   margin-bottom: 14px;
+  margin-bottom: 14px;
+  margin-bottom: 14px;
   margin-bottom: 0.88889rem;
+  font-size: 10px;
+  font-size: 10px;
   font-size: 10px;
   font-size: 10px;
   font-size: 10px;
@@ -2170,6 +2388,8 @@ span.error, small.error {
   margin-bottom: 14px;
   margin-bottom: 14px;
   margin-bottom: 14px;
+  margin-bottom: 14px;
+  margin-bottom: 14px;
   margin-bottom: 0.88889rem;
 }
 .error label,
@@ -2182,13 +2402,19 @@ span.error, small.error {
   padding: 5px 8px 8px;
   padding: 5px 8px 8px;
   padding: 5px 8px 8px;
+  padding: 5px 8px 8px;
+  padding: 5px 8px 8px;
   padding: 0.33333rem 0.5rem 0.5rem;
   margin-top: -1px;
   margin-bottom: 14px;
   margin-bottom: 14px;
   margin-bottom: 14px;
   margin-bottom: 14px;
+  margin-bottom: 14px;
+  margin-bottom: 14px;
   margin-bottom: 0.88889rem;
+  font-size: 10px;
+  font-size: 10px;
   font-size: 10px;
   font-size: 10px;
   font-size: 10px;
@@ -2232,10 +2458,14 @@ label.error {
   font-size: 16px;
   font-size: 16px;
   font-size: 16px;
+  font-size: 16px;
+  font-size: 16px;
   font-size: 1rem;
   width: 25%;
   margin: 0 auto;
   display: block;
+  padding: 20px;
+  padding: 20px;
   padding: 20px;
   padding: 20px;
   padding: 20px;
@@ -2252,9 +2482,13 @@ label.error {
   margin-top: 1px;
   margin-top: 1px;
   margin-top: 1px;
+  margin-top: 1px;
+  margin-top: 1px;
   margin-top: .0625rem;
 }
 .icon-bar > * i {
+  font-size: 30px;
+  font-size: 30px;
   font-size: 30px;
   font-size: 30px;
   font-size: 30px;
@@ -2267,7 +2501,11 @@ label.error {
   width: 30px;
   width: 30px;
   width: 30px;
+  width: 30px;
+  width: 30px;
   width: 1.875rem;
+  height: 30px;
+  height: 30px;
   height: 30px;
   height: 30px;
   height: 30px;
@@ -2275,6 +2513,8 @@ label.error {
   height: 1.875rem;
 }
 .icon-bar.label-right > * i, .icon-bar.label-right > * img {
+  margin: 0 1px 0 0;
+  margin: 0 1px 0 0;
   margin: 0 1px 0 0;
   margin: 0 1px 0 0;
   margin: 0 1px 0 0;
@@ -2305,7 +2545,11 @@ label.error {
   font-size: 16px;
   font-size: 16px;
   font-size: 16px;
+  font-size: 16px;
+  font-size: 16px;
   font-size: 1rem;
+  padding: 20px;
+  padding: 20px;
   padding: 20px;
   padding: 20px;
   padding: 20px;
@@ -2317,9 +2561,13 @@ label.error {
   margin-top: 1px;
   margin-top: 1px;
   margin-top: 1px;
+  margin-top: 1px;
+  margin-top: 1px;
   margin-top: .0625rem;
 }
 .icon-bar > * i {
+  font-size: 30px;
+  font-size: 30px;
   font-size: 30px;
   font-size: 30px;
   font-size: 30px;
@@ -2331,7 +2579,11 @@ label.error {
   width: 30px;
   width: 30px;
   width: 30px;
+  width: 30px;
+  width: 30px;
   width: 1.875rem;
+  height: 30px;
+  height: 30px;
   height: 30px;
   height: 30px;
   height: 30px;
@@ -2420,7 +2672,11 @@ label.error {
   margin: 0 auto 15px auto;
   margin: 0 auto 15px auto;
   margin: 0 auto 15px auto;
+  margin: 0 auto 15px auto;
+  margin: 0 auto 15px auto;
   margin: 0 auto 0.94444rem auto;
+  margin-left: -19px;
+  margin-left: -19px;
   margin-left: -19px;
   margin-left: -19px;
   margin-left: -19px;
@@ -2434,6 +2690,8 @@ label.error {
 .inline-list > li {
   list-style: none;
   float: left;
+  margin-left: 19px;
+  margin-left: 19px;
   margin-left: 19px;
   margin-left: 19px;
   margin-left: 19px;
@@ -2470,6 +2728,8 @@ label.error {
 }
 .joyride-content-wrapper {
   width: 100%;
+  padding: 16px 17px 21px;
+  padding: 16px 17px 21px;
   padding: 16px 17px 21px;
   padding: 16px 17px 21px;
   padding: 16px 17px 21px;
@@ -2532,7 +2792,11 @@ label.error {
   margin: 0 0 16px 0;
   margin: 0 0 16px 0;
   margin: 0 0 16px 0;
+  margin: 0 0 16px 0;
+  margin: 0 0 16px 0;
   margin: 0 0 1rem 0;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -2549,7 +2813,11 @@ label.error {
   right: 15px;
   right: 15px;
   right: 15px;
+  right: 15px;
+  right: 15px;
   right: 0.94444rem;
+  bottom: 14px;
+  bottom: 14px;
   bottom: 14px;
   bottom: 14px;
   bottom: 14px;
@@ -2618,6 +2886,8 @@ kbd {
   padding: 1px 3px 0;
   padding: 1px 3px 0;
   padding: 1px 3px 0;
+  padding: 1px 3px 0;
+  padding: 1px 3px 0;
   padding: 0.11111rem 0.22222rem 0;
   border-radius: 3px;
 }
@@ -2635,7 +2905,11 @@ kbd {
   padding: 3px 7px 3px;
   padding: 3px 7px 3px;
   padding: 3px 7px 3px;
+  padding: 3px 7px 3px;
+  padding: 3px 7px 3px;
   padding: 0.22222rem 0.44444rem 0.22222rem;
+  font-size: 9px;
+  font-size: 9px;
   font-size: 9px;
   font-size: 9px;
   font-size: 9px;
@@ -2773,7 +3047,11 @@ kbd {
   padding: 8px 12px;
   padding: 8px 12px;
   padding: 8px 12px;
+  padding: 8px 12px;
+  padding: 8px 12px;
   padding: 0.55556rem 0.77778rem;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -2791,6 +3069,8 @@ kbd {
 }
 .orbit-container .orbit-slide-number span {
   font-weight: 700;
+  padding: 4px;
+  padding: 4px;
   padding: 4px;
   padding: 4px;
   padding: 4px;
@@ -2911,7 +3191,11 @@ kbd {
   width: 8px;
   width: 8px;
   width: 8px;
+  width: 8px;
+  width: 8px;
   width: 0.5rem;
+  height: 8px;
+  height: 8px;
   height: 8px;
   height: 8px;
   height: 8px;
@@ -2941,7 +3225,11 @@ ul.pagination {
   min-height: 21px;
   min-height: 21px;
   min-height: 21px;
+  min-height: 21px;
+  min-height: 21px;
   min-height: 1.33333rem;
+  margin-left: -4px;
+  margin-left: -4px;
   margin-left: -4px;
   margin-left: -4px;
   margin-left: -4px;
@@ -2953,8 +3241,12 @@ ul.pagination li {
   height: 21px;
   height: 21px;
   height: 21px;
+  height: 21px;
+  height: 21px;
   height: 1.33333rem;
   color: #222222;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -2964,10 +3256,14 @@ ul.pagination li {
   margin-left: 4px;
   margin-left: 4px;
   margin-left: 4px;
+  margin-left: 4px;
+  margin-left: 4px;
   margin-left: 0.27778rem;
 }
 ul.pagination li a, ul.pagination li button {
   display: block;
+  padding: 0px 8px 0px;
+  padding: 0px 8px 0px;
   padding: 0px 8px 0px;
   padding: 0px 8px 0px;
   padding: 0px 8px 0px;
@@ -3025,7 +3321,11 @@ ul.pagination li {
   margin-bottom: 17px;
   margin-bottom: 17px;
   margin-bottom: 17px;
+  margin-bottom: 17px;
+  margin-bottom: 17px;
   margin-bottom: 1.11111rem;
+  padding: 17px;
+  padding: 17px;
   padding: 17px;
   padding: 17px;
   padding: 17px;
@@ -3049,6 +3349,8 @@ ul.pagination li {
   margin-bottom: 8px;
   margin-bottom: 8px;
   margin-bottom: 8px;
+  margin-bottom: 8px;
+  margin-bottom: 8px;
   margin-bottom: 0.55556rem;
 }
 .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
@@ -3062,7 +3364,11 @@ ul.pagination li {
   margin-bottom: 17px;
   margin-bottom: 17px;
   margin-bottom: 17px;
+  margin-bottom: 17px;
+  margin-bottom: 17px;
   margin-bottom: 1.11111rem;
+  padding: 17px;
+  padding: 17px;
   padding: 17px;
   padding: 17px;
   padding: 17px;
@@ -3082,6 +3388,8 @@ ul.pagination li {
 }
 .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
   line-height: 1;
+  margin-bottom: 8px;
+  margin-bottom: 8px;
   margin-bottom: 8px;
   margin-bottom: 8px;
   margin-bottom: 8px;
@@ -3109,6 +3417,8 @@ ul.pagination li {
   margin-bottom: 17px;
   margin-bottom: 17px;
   margin-bottom: 17px;
+  margin-bottom: 17px;
+  margin-bottom: 17px;
   margin-bottom: 1.11111rem;
 }
 .pricing-table * {
@@ -3121,10 +3431,14 @@ ul.pagination li {
   padding: 13px 17px;
   padding: 13px 17px;
   padding: 13px 17px;
+  padding: 13px 17px;
+  padding: 13px 17px;
   padding: 0.83333rem 1.11111rem;
   text-align: center;
   color: #EEEEEE;
   font-weight: normal;
+  font-size: 14px;
+  font-size: 14px;
   font-size: 14px;
   font-size: 14px;
   font-size: 14px;
@@ -3138,10 +3452,14 @@ ul.pagination li {
   padding: 13px 17px;
   padding: 13px 17px;
   padding: 13px 17px;
+  padding: 13px 17px;
+  padding: 13px 17px;
   padding: 0.83333rem 1.11111rem;
   text-align: center;
   color: #333333;
   font-weight: normal;
+  font-size: 28px;
+  font-size: 28px;
   font-size: 28px;
   font-size: 28px;
   font-size: 28px;
@@ -3155,9 +3473,13 @@ ul.pagination li {
   padding: 13px;
   padding: 13px;
   padding: 13px;
+  padding: 13px;
+  padding: 13px;
   padding: 0.83333rem;
   text-align: center;
   color: #777777;
+  font-size: 10px;
+  font-size: 10px;
   font-size: 10px;
   font-size: 10px;
   font-size: 10px;
@@ -3173,9 +3495,13 @@ ul.pagination li {
   padding: 13px;
   padding: 13px;
   padding: 13px;
+  padding: 13px;
+  padding: 13px;
   padding: 0.83333rem;
   text-align: center;
   color: #333333;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -3191,6 +3517,8 @@ ul.pagination li {
   padding: 17px 17px 0;
   padding: 17px 17px 0;
   padding: 17px 17px 0;
+  padding: 17px 17px 0;
+  padding: 17px 17px 0;
   padding: 1.11111rem 1.11111rem 0;
 }
 
@@ -3201,13 +3529,19 @@ ul.pagination li {
   height: 22px;
   height: 22px;
   height: 22px;
+  height: 22px;
+  height: 22px;
   height: 1.38889rem;
   border: 1px solid white;
   padding: 1px;
   padding: 1px;
   padding: 1px;
   padding: 1px;
+  padding: 1px;
+  padding: 1px;
   padding: 0.11111rem;
+  margin-bottom: 8px;
+  margin-bottom: 8px;
   margin-bottom: 8px;
   margin-bottom: 8px;
   margin-bottom: 8px;
@@ -3253,10 +3587,14 @@ ul.pagination li {
   margin: 17px 0;
   margin: 17px 0;
   margin: 17px 0;
+  margin: 17px 0;
+  margin: 17px 0;
   margin: 1.11111rem 0;
   touch-action: none;
   display: block;
   width: 100%;
+  height: 14px;
+  height: 14px;
   height: 14px;
   height: 14px;
   height: 14px;
@@ -3271,6 +3609,8 @@ ul.pagination li {
   margin: 17px 0;
   margin: 17px 0;
   margin: 17px 0;
+  margin: 17px 0;
+  margin: 17px 0;
   margin: 1.11111rem 0;
   touch-action: none;
   display: inline-block;
@@ -3278,7 +3618,11 @@ ul.pagination li {
   width: 14px;
   width: 14px;
   width: 14px;
+  width: 14px;
+  width: 14px;
   width: 0.88889rem;
+  height: 177px;
+  height: 177px;
   height: 177px;
   height: 177px;
   height: 177px;
@@ -3291,8 +3635,12 @@ ul.pagination li {
   margin-left: -7px;
   margin-left: -7px;
   margin-left: -7px;
+  margin-left: -7px;
+  margin-left: -7px;
   margin-left: -0.44444rem;
   position: absolute;
+  bottom: -149px;
+  bottom: -149px;
   bottom: -149px;
   bottom: -149px;
   bottom: -149px;
@@ -3300,6 +3648,8 @@ ul.pagination li {
   bottom: -9.33333rem;
 }
 .range-slider.vertical-range .range-slider-active-segment {
+  width: 12px;
+  width: 12px;
   width: 12px;
   width: 12px;
   width: 12px;
@@ -3352,6 +3702,8 @@ ul.pagination li {
   height: 12px;
   height: 12px;
   height: 12px;
+  height: 12px;
+  height: 12px;
   height: 0.77778rem;
   background: #3ca738;
 }
@@ -3363,12 +3715,18 @@ ul.pagination li {
   top: -4px;
   top: -4px;
   top: -4px;
+  top: -4px;
+  top: -4px;
   top: -0.27778rem;
   width: 28px;
   width: 28px;
   width: 28px;
   width: 28px;
+  width: 28px;
+  width: 28px;
   width: 1.77778rem;
+  height: 19px;
+  height: 19px;
   height: 19px;
   height: 19px;
   height: 19px;
@@ -3404,6 +3762,8 @@ ul.pagination li {
   border-radius: 3px;
   left: 0;
   background-color: #FFFFFF;
+  padding: 26px;
+  padding: 26px;
   padding: 26px;
   padding: 26px;
   padding: 26px;
@@ -3447,6 +3807,8 @@ ul.pagination li {
   font-size: 35px;
   font-size: 35px;
   font-size: 35px;
+  font-size: 35px;
+  font-size: 35px;
   font-size: 2.22222rem;
   line-height: 1;
   position: absolute;
@@ -3454,7 +3816,11 @@ ul.pagination li {
   top: 8px;
   top: 8px;
   top: 8px;
+  top: 8px;
+  top: 8px;
   top: 0.55556rem;
+  right: 19px;
+  right: 19px;
   right: 19px;
   right: 19px;
   right: 19px;
@@ -3471,6 +3837,8 @@ ul.pagination li {
   padding: 12px 0;
   padding: 12px 0;
   padding: 12px 0;
+  padding: 12px 0;
+  padding: 12px 0;
   padding: 0.77778rem 0;
   list-style-type: none;
   list-style-position: outside;
@@ -3481,7 +3849,11 @@ ul.pagination li {
   margin: 0 0 6px 0;
   margin: 0 0 6px 0;
   margin: 0 0 6px 0;
+  margin: 0 0 6px 0;
+  margin: 0 0 6px 0;
   margin: 0 0 0.38889rem 0;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -3493,6 +3865,8 @@ ul.pagination li {
   display: block;
   color: #008CBA;
   margin: 0;
+  padding: 6px 12px;
+  padding: 6px 12px;
   padding: 6px 12px;
   padding: 6px 12px;
   padding: 6px 12px;
@@ -3521,12 +3895,16 @@ ul.pagination li {
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 0.77778rem;
   font-weight: bold;
   text-transform: uppercase;
 }
 .split.button {
   position: relative;
+  padding-right: 72px;
+  padding-right: 72px;
   padding-right: 72px;
   padding-right: 72px;
   padding-right: 72px;
@@ -3562,6 +3940,8 @@ ul.pagination li {
   width: 44px;
   width: 44px;
   width: 44px;
+  width: 44px;
+  width: 44px;
   width: 2.75rem;
 }
 .split.button span:after {
@@ -3570,8 +3950,12 @@ ul.pagination li {
   border-width: 5px;
   border-width: 5px;
   border-width: 5px;
+  border-width: 5px;
+  border-width: 5px;
   border-width: 0.33333rem;
   top: 48%;
+  margin-left: -5px;
+  margin-left: -5px;
   margin-left: -5px;
   margin-left: -5px;
   margin-left: -5px;
@@ -3598,9 +3982,13 @@ ul.pagination li {
   padding-right: 53px;
   padding-right: 53px;
   padding-right: 53px;
+  padding-right: 53px;
+  padding-right: 53px;
   padding-right: 3.33333rem;
 }
 .split.button.tiny span {
+  width: 32px;
+  width: 32px;
   width: 32px;
   width: 32px;
   width: 32px;
@@ -3613,8 +4001,12 @@ ul.pagination li {
   border-width: 5px;
   border-width: 5px;
   border-width: 5px;
+  border-width: 5px;
+  border-width: 5px;
   border-width: 0.33333rem;
   top: 48%;
+  margin-left: -5px;
+  margin-left: -5px;
   margin-left: -5px;
   margin-left: -5px;
   margin-left: -5px;
@@ -3626,9 +4018,13 @@ ul.pagination li {
   padding-right: 62px;
   padding-right: 62px;
   padding-right: 62px;
+  padding-right: 62px;
+  padding-right: 62px;
   padding-right: 3.88889rem;
 }
 .split.button.small span {
+  width: 37px;
+  width: 37px;
   width: 37px;
   width: 37px;
   width: 37px;
@@ -3641,8 +4037,12 @@ ul.pagination li {
   border-width: 6px;
   border-width: 6px;
   border-width: 6px;
+  border-width: 6px;
+  border-width: 6px;
   border-width: 0.38889rem;
   top: 48%;
+  margin-left: -5px;
+  margin-left: -5px;
   margin-left: -5px;
   margin-left: -5px;
   margin-left: -5px;
@@ -3654,9 +4054,13 @@ ul.pagination li {
   padding-right: 78px;
   padding-right: 78px;
   padding-right: 78px;
+  padding-right: 78px;
+  padding-right: 78px;
   padding-right: 4.88889rem;
 }
 .split.button.large span {
+  width: 48px;
+  width: 48px;
   width: 48px;
   width: 48px;
   width: 48px;
@@ -3669,8 +4073,12 @@ ul.pagination li {
   border-width: 4px;
   border-width: 4px;
   border-width: 4px;
+  border-width: 4px;
+  border-width: 4px;
   border-width: 0.27778rem;
   top: 48%;
+  margin-left: -5px;
+  margin-left: -5px;
   margin-left: -5px;
   margin-left: -5px;
   margin-left: -5px;
@@ -3678,6 +4086,8 @@ ul.pagination li {
   margin-left: -0.33333rem;
 }
 .split.button.expand {
+  padding-left: 32px;
+  padding-left: 32px;
   padding-left: 32px;
   padding-left: 32px;
   padding-left: 32px;
@@ -3721,7 +4131,11 @@ ul.pagination li {
   margin-bottom: -3px 0 16px;
   margin-bottom: -3px 0 16px;
   margin-bottom: -3px 0 16px;
+  margin-bottom: -3px 0 16px;
+  margin-bottom: -3px 0 16px;
   margin-bottom: -0.22222rem 0 1rem;
+  padding-top: 3px;
+  padding-top: 3px;
   padding-top: 3px;
   padding-top: 3px;
   padding-top: 3px;
@@ -3739,10 +4153,14 @@ ul.pagination li {
   margin-left: 14px;
   margin-left: 14px;
   margin-left: 14px;
+  margin-left: 14px;
+  margin-left: 14px;
   margin-left: 0.88889rem;
   margin-bottom: 0;
   font-family: Ubuntu, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -3755,6 +4173,8 @@ ul.pagination li {
 .sub-nav li a {
   text-decoration: none;
   color: #999999;
+  padding: 2px 14px;
+  padding: 2px 14px;
   padding: 2px 14px;
   padding: 2px 14px;
   padding: 2px 14px;
@@ -3772,6 +4192,8 @@ ul.pagination li {
   border-radius: 3px;
   font-weight: normal;
   background: #008CBA;
+  padding: 2px 14px;
+  padding: 2px 14px;
   padding: 2px 14px;
   padding: 2px 14px;
   padding: 2px 14px;
@@ -3798,6 +4220,8 @@ ul.pagination li {
   margin-bottom: 16px;
   margin-bottom: 16px;
   margin-bottom: 16px;
+  margin-bottom: 16px;
+  margin-bottom: 16px;
   margin-bottom: 1rem;
   position: relative;
   color: transparent;
@@ -3807,7 +4231,11 @@ ul.pagination li {
   width: 64px;
   width: 64px;
   width: 64px;
+  width: 64px;
+  width: 64px;
   width: 4rem;
+  height: 32px;
+  height: 32px;
   height: 32px;
   height: 32px;
   height: 32px;
@@ -3837,7 +4265,11 @@ ul.pagination li {
   top: 4px;
   top: 4px;
   top: 4px;
+  top: 4px;
+  top: 4px;
   top: .25rem;
+  left: 4px;
+  left: 4px;
   left: 4px;
   left: 4px;
   left: 4px;
@@ -3847,7 +4279,11 @@ ul.pagination li {
   width: 24px;
   width: 24px;
   width: 24px;
+  width: 24px;
+  width: 24px;
   width: 1.5rem;
+  height: 24px;
+  height: 24px;
   height: 24px;
   height: 24px;
   height: 24px;
@@ -3864,6 +4300,8 @@ ul.pagination li {
   left: 36px;
   left: 36px;
   left: 36px;
+  left: 36px;
+  left: 36px;
   left: 2.25rem;
 }
 .switch label {
@@ -3871,7 +4309,11 @@ ul.pagination li {
   width: 64px;
   width: 64px;
   width: 64px;
+  width: 64px;
+  width: 64px;
   width: 4rem;
+  height: 32px;
+  height: 32px;
   height: 32px;
   height: 32px;
   height: 32px;
@@ -3883,7 +4325,11 @@ ul.pagination li {
   width: 24px;
   width: 24px;
   width: 24px;
+  width: 24px;
+  width: 24px;
   width: 1.5rem;
+  height: 24px;
+  height: 24px;
   height: 24px;
   height: 24px;
   height: 24px;
@@ -3891,6 +4337,8 @@ ul.pagination li {
   height: 1.5rem;
 }
 .switch input:checked + label:after {
+  left: 36px;
+  left: 36px;
   left: 36px;
   left: 36px;
   left: 36px;
@@ -3912,7 +4360,11 @@ ul.pagination li {
   width: 80px;
   width: 80px;
   width: 80px;
+  width: 80px;
+  width: 80px;
   width: 5rem;
+  height: 40px;
+  height: 40px;
   height: 40px;
   height: 40px;
   height: 40px;
@@ -3924,7 +4376,11 @@ ul.pagination li {
   width: 32px;
   width: 32px;
   width: 32px;
+  width: 32px;
+  width: 32px;
   width: 2rem;
+  height: 32px;
+  height: 32px;
   height: 32px;
   height: 32px;
   height: 32px;
@@ -3936,6 +4392,8 @@ ul.pagination li {
   left: 44px;
   left: 44px;
   left: 44px;
+  left: 44px;
+  left: 44px;
   left: 2.75rem;
 }
 .switch.small label {
@@ -3943,7 +4401,11 @@ ul.pagination li {
   width: 56px;
   width: 56px;
   width: 56px;
+  width: 56px;
+  width: 56px;
   width: 3.5rem;
+  height: 28px;
+  height: 28px;
   height: 28px;
   height: 28px;
   height: 28px;
@@ -3955,7 +4417,11 @@ ul.pagination li {
   width: 20px;
   width: 20px;
   width: 20px;
+  width: 20px;
+  width: 20px;
   width: 1.25rem;
+  height: 20px;
+  height: 20px;
   height: 20px;
   height: 20px;
   height: 20px;
@@ -3967,6 +4433,8 @@ ul.pagination li {
   left: 32px;
   left: 32px;
   left: 32px;
+  left: 32px;
+  left: 32px;
   left: 2rem;
 }
 .switch.tiny label {
@@ -3974,7 +4442,11 @@ ul.pagination li {
   width: 48px;
   width: 48px;
   width: 48px;
+  width: 48px;
+  width: 48px;
   width: 3rem;
+  height: 24px;
+  height: 24px;
   height: 24px;
   height: 24px;
   height: 24px;
@@ -3986,7 +4458,11 @@ ul.pagination li {
   width: 16px;
   width: 16px;
   width: 16px;
+  width: 16px;
+  width: 16px;
   width: 1rem;
+  height: 16px;
+  height: 16px;
   height: 16px;
   height: 16px;
   height: 16px;
@@ -3994,6 +4470,8 @@ ul.pagination li {
   height: 1rem;
 }
 .switch.tiny input:checked + label:after {
+  left: 28px;
+  left: 28px;
   left: 28px;
   left: 28px;
   left: 28px;
@@ -4021,6 +4499,8 @@ table {
   margin-bottom: 17px;
   margin-bottom: 17px;
   margin-bottom: 17px;
+  margin-bottom: 17px;
+  margin-bottom: 17px;
   margin-bottom: 1.11111rem;
   border: solid 1px #DDDDDD;
   table-layout: auto;
@@ -4028,6 +4508,8 @@ table {
 table caption {
   background: transparent;
   color: #222222;
+  font-size: 14px;
+  font-size: 14px;
   font-size: 14px;
   font-size: 14px;
   font-size: 14px;
@@ -4044,7 +4526,11 @@ table thead tr td {
   padding: 7px 8px 8px;
   padding: 7px 8px 8px;
   padding: 7px 8px 8px;
+  padding: 7px 8px 8px;
+  padding: 7px 8px 8px;
   padding: 0.44444rem 0.55556rem 0.55556rem;
+  font-size: 11px;
+  font-size: 11px;
   font-size: 11px;
   font-size: 11px;
   font-size: 11px;
@@ -4062,7 +4548,11 @@ table tfoot tr td {
   padding: 7px 8px 8px;
   padding: 7px 8px 8px;
   padding: 7px 8px 8px;
+  padding: 7px 8px 8px;
+  padding: 7px 8px 8px;
   padding: 0.44444rem 0.55556rem 0.55556rem;
+  font-size: 11px;
+  font-size: 11px;
   font-size: 11px;
   font-size: 11px;
   font-size: 11px;
@@ -4077,7 +4567,11 @@ table tr td {
   padding: 8px 8px;
   padding: 8px 8px;
   padding: 8px 8px;
+  padding: 8px 8px;
+  padding: 8px 8px;
   padding: 0.5rem 0.55556rem;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -4096,6 +4590,8 @@ table tbody tr th,
 table tbody tr td,
 table tr td {
   display: table-cell;
+  line-height: 16px;
+  line-height: 16px;
   line-height: 16px;
   line-height: 16px;
   line-height: 16px;
@@ -4127,8 +4623,12 @@ table tr td {
   padding: 14px 28px;
   padding: 14px 28px;
   padding: 14px 28px;
+  padding: 14px 28px;
+  padding: 14px 28px;
   padding: 0.88889rem 1.77778rem;
   font-family: Ubuntu, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-size: 14px;
   font-size: 14px;
   font-size: 14px;
   font-size: 14px;
@@ -4168,6 +4668,8 @@ table tr td {
   margin-bottom: 21px;
   margin-bottom: 21px;
   margin-bottom: 21px;
+  margin-bottom: 21px;
+  margin-bottom: 21px;
   margin-bottom: 1.33333rem;
   width: 100%;
 }
@@ -4185,6 +4687,8 @@ table tr td {
   padding: 13px 0;
   padding: 13px 0;
   padding: 13px 0;
+  padding: 13px 0;
+  padding: 13px 0;
   padding: 0.83333rem 0;
   width: 100%;
 }
@@ -4197,12 +4701,16 @@ table tr td {
   padding: 13px;
   padding: 13px;
   padding: 13px;
+  padding: 13px;
+  padding: 13px;
   padding: 0.83333rem;
 }
 .tabs-content.vertical {
   display: block;
 }
 .tabs-content.vertical > .content {
+  padding: 0 13px;
+  padding: 0 13px;
   padding: 0 13px;
   padding: 0 13px;
   padding: 0 13px;
@@ -4253,8 +4761,12 @@ table tr td {
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 0.77778rem;
   line-height: 1.3;
+  padding: 10px;
+  padding: 10px;
   padding: 10px;
   padding: 10px;
   padding: 10px;
@@ -4292,6 +4804,8 @@ table tr td {
   left: 32px;
   left: 32px;
   left: 32px;
+  left: 32px;
+  left: 32px;
   left: 2rem;
 }
 .tooltip.opened {
@@ -4300,6 +4814,8 @@ table tr td {
 }
 .tap-to-close {
   display: block;
+  font-size: 8px;
+  font-size: 8px;
   font-size: 8px;
   font-size: 8px;
   font-size: 8px;
@@ -4345,6 +4861,8 @@ meta.foundation-mq-topbar {
   margin-top: 40px;
   margin-top: 40px;
   margin-top: 40px;
+  margin-top: 40px;
+  margin-top: 40px;
   margin-top: 2.5rem;
 }
 .top-bar {
@@ -4353,7 +4871,11 @@ meta.foundation-mq-topbar {
   height: 40px;
   height: 40px;
   height: 40px;
+  height: 40px;
+  height: 40px;
   height: 2.5rem;
+  line-height: 40px;
+  line-height: 40px;
   line-height: 40px;
   line-height: 40px;
   line-height: 40px;
@@ -4379,7 +4901,11 @@ meta.foundation-mq-topbar {
   height: 24px;
   height: 24px;
   height: 24px;
+  height: 24px;
+  height: 24px;
   height: 1.55556rem;
+  padding-top: 5px;
+  padding-top: 5px;
   padding-top: 5px;
   padding-top: 5px;
   padding-top: 5px;
@@ -4389,7 +4915,11 @@ meta.foundation-mq-topbar {
   padding-bottom: 5px;
   padding-bottom: 5px;
   padding-bottom: 5px;
+  padding-bottom: 5px;
+  padding-bottom: 5px;
   padding-bottom: .35rem;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -4401,13 +4931,19 @@ meta.foundation-mq-topbar {
   padding-top: 6px;
   padding-top: 6px;
   padding-top: 6px;
+  padding-top: 6px;
+  padding-top: 6px;
   padding-top: 0.40556rem;
+  padding-bottom: 6px;
+  padding-bottom: 6px;
   padding-bottom: 6px;
   padding-bottom: 6px;
   padding-bottom: 6px;
   padding-bottom: 6px;
   padding-bottom: 0.40556rem;
   margin-bottom: 0;
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -4423,6 +4959,8 @@ meta.foundation-mq-topbar {
   height: 40px;
   height: 40px;
   height: 40px;
+  height: 40px;
+  height: 40px;
   height: 2.5rem;
   margin: 0;
   font-size: 18px;
@@ -4432,7 +4970,11 @@ meta.foundation-mq-topbar {
   line-height: 40px;
   line-height: 40px;
   line-height: 40px;
+  line-height: 40px;
+  line-height: 40px;
   line-height: 2.5rem;
+  font-size: 15px;
+  font-size: 15px;
   font-size: 15px;
   font-size: 15px;
   font-size: 15px;
@@ -4445,6 +4987,8 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   width: 75%;
   display: block;
+  padding: 0 13px;
+  padding: 0 13px;
   padding: 0 13px;
   padding: 0 13px;
   padding: 0 13px;
@@ -4463,10 +5007,14 @@ meta.foundation-mq-topbar {
   font-size: 11px;
   font-size: 11px;
   font-size: 11px;
+  font-size: 11px;
+  font-size: 11px;
   font-size: 0.72222rem;
   font-weight: bold;
   position: relative;
   display: block;
+  padding: 0 13px;
+  padding: 0 13px;
   padding: 0 13px;
   padding: 0 13px;
   padding: 0 13px;
@@ -4476,7 +5024,11 @@ meta.foundation-mq-topbar {
   height: 40px;
   height: 40px;
   height: 40px;
+  height: 40px;
+  height: 40px;
   height: 2.5rem;
+  line-height: 40px;
+  line-height: 40px;
   line-height: 40px;
   line-height: 40px;
   line-height: 40px;
@@ -4494,6 +5046,8 @@ meta.foundation-mq-topbar {
   padding: 0 35px 0 13px;
   padding: 0 35px 0 13px;
   padding: 0 35px 0 13px;
+  padding: 0 35px 0 13px;
+  padding: 0 35px 0 13px;
   padding: 0 2.22222rem 0 0.83333rem;
   color: #FFFFFF;
   position: relative;
@@ -4505,6 +5059,8 @@ meta.foundation-mq-topbar {
   height: 0;
   top: 50%;
   margin-top: -8px;
+  right: 13px;
+  right: 13px;
   right: 13px;
   right: 13px;
   right: 13px;
@@ -4562,8 +5118,12 @@ meta.foundation-mq-topbar {
   padding-left: 13px;
   padding-left: 13px;
   padding-left: 13px;
+  padding-left: 13px;
+  padding-left: 13px;
   padding-left: 0.83333rem;
   font-family: Ubuntu, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 11px;
+  font-size: 11px;
   font-size: 11px;
   font-size: 11px;
   font-size: 11px;
@@ -4577,12 +5137,18 @@ meta.foundation-mq-topbar {
   font-size: 11px;
   font-size: 11px;
   font-size: 11px;
+  font-size: 11px;
+  font-size: 11px;
   font-size: 0.72222rem;
   padding-right: 13px;
   padding-right: 13px;
   padding-right: 13px;
   padding-right: 13px;
+  padding-right: 13px;
+  padding-right: 13px;
   padding-right: 0.83333rem;
+  padding-left: 13px;
+  padding-left: 13px;
   padding-left: 13px;
   padding-left: 13px;
   padding-left: 13px;
@@ -4647,12 +5213,18 @@ meta.foundation-mq-topbar {
   font-size: 11px;
   font-size: 11px;
   font-size: 11px;
+  font-size: 11px;
+  font-size: 11px;
   font-size: 0.72222rem;
   padding-right: 13px;
   padding-right: 13px;
   padding-right: 13px;
   padding-right: 13px;
+  padding-right: 13px;
+  padding-right: 13px;
   padding-right: 0.83333rem;
+  padding-left: 13px;
+  padding-left: 13px;
   padding-left: 13px;
   padding-left: 13px;
   padding-left: 13px;
@@ -4730,6 +5302,8 @@ meta.foundation-mq-topbar {
   padding: 13px;
   padding: 13px;
   padding: 13px;
+  padding: 13px;
+  padding: 13px;
   padding: 0.83333rem;
 }
 .top-bar-section .has-dropdown {
@@ -4743,6 +5317,8 @@ meta.foundation-mq-topbar {
   border: inset 5px;
   border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
   border-left-style: solid;
+  margin-right: 13px;
+  margin-right: 13px;
   margin-right: 13px;
   margin-right: 13px;
   margin-right: 13px;
@@ -4792,6 +5368,8 @@ meta.foundation-mq-topbar {
   padding: 8px 13px;
   padding: 8px 13px;
   padding: 8px 13px;
+  padding: 8px 13px;
+  padding: 8px 13px;
   padding: 8px 0.83333rem;
 }
 .top-bar-section .dropdown li a.parent-link {
@@ -4800,6 +5378,8 @@ meta.foundation-mq-topbar {
 .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
   margin-bottom: 0;
   margin-top: 0;
+  font-size: 16px;
+  font-size: 16px;
   font-size: 16px;
   font-size: 16px;
   font-size: 16px;
@@ -4818,6 +5398,8 @@ meta.foundation-mq-topbar {
   padding: 8px 13px;
   padding: 8px 13px;
   padding: 8px 13px;
+  padding: 8px 13px;
+  padding: 8px 13px;
   padding: 8px 0.83333rem;
 }
 .top-bar-section .dropdown li .button, .top-bar-section .dropdown li button {
@@ -4828,11 +5410,15 @@ meta.foundation-mq-topbar {
   padding: 8px 13px 2px;
   padding: 8px 13px 2px;
   padding: 8px 13px 2px;
+  padding: 8px 13px 2px;
+  padding: 8px 13px 2px;
   padding: 8px 0.83333rem 2px;
   margin-bottom: 0;
   text-transform: uppercase;
   color: #777777;
   font-weight: bold;
+  font-size: 8px;
+  font-size: 8px;
   font-size: 8px;
   font-size: 8px;
   font-size: 8px;
@@ -4900,8 +5486,12 @@ p {
   font-size: 16px;
   font-size: 16px;
   font-size: 16px;
+  font-size: 16px;
+  font-size: 16px;
   font-size: 1rem;
   line-height: 1.6;
+  margin-bottom: 17px;
+  margin-bottom: 17px;
   margin-bottom: 17px;
   margin-bottom: 17px;
   margin-bottom: 17px;
@@ -4914,10 +5504,14 @@ p.lead {
   font-size: 19px;
   font-size: 19px;
   font-size: 19px;
+  font-size: 19px;
+  font-size: 19px;
   font-size: 1.19444rem;
   line-height: 1.6;
 }
 p aside {
+  font-size: 12px;
+  font-size: 12px;
   font-size: 12px;
   font-size: 12px;
   font-size: 12px;
@@ -4938,7 +5532,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 3px;
   margin-top: 3px;
   margin-top: 3px;
+  margin-top: 3px;
+  margin-top: 3px;
   margin-top: 0.2rem;
+  margin-bottom: 8px;
+  margin-bottom: 8px;
   margin-bottom: 8px;
   margin-bottom: 8px;
   margin-bottom: 8px;
@@ -4956,9 +5554,13 @@ h1 {
   font-size: 30px;
   font-size: 30px;
   font-size: 30px;
+  font-size: 30px;
+  font-size: 30px;
   font-size: 1.88889rem;
 }
 h2 {
+  font-size: 24px;
+  font-size: 24px;
   font-size: 24px;
   font-size: 24px;
   font-size: 24px;
@@ -4970,9 +5572,13 @@ h3 {
   font-size: 19px;
   font-size: 19px;
   font-size: 19px;
+  font-size: 19px;
+  font-size: 19px;
   font-size: 1.22222rem;
 }
 h4 {
+  font-size: 16px;
+  font-size: 16px;
   font-size: 16px;
   font-size: 16px;
   font-size: 16px;
@@ -4984,9 +5590,13 @@ h5 {
   font-size: 16px;
   font-size: 16px;
   font-size: 16px;
+  font-size: 16px;
+  font-size: 16px;
   font-size: 1rem;
 }
 h6 {
+  font-size: 16px;
+  font-size: 16px;
   font-size: 16px;
   font-size: 16px;
   font-size: 16px;
@@ -5001,7 +5611,11 @@ h6 {
   margin-top: 3px;
   margin-top: 3px;
   margin-top: 3px;
+  margin-top: 3px;
+  margin-top: 3px;
   margin-top: 0.2rem;
+  margin-bottom: 8px;
+  margin-bottom: 8px;
   margin-bottom: 8px;
   margin-bottom: 8px;
   margin-bottom: 8px;
@@ -5012,6 +5626,8 @@ hr {
   border: solid #DDDDDD;
   border-width: 1px 0 0;
   clear: both;
+  margin: 17px 0 16px;
+  margin: 17px 0 16px;
   margin: 17px 0 16px;
   margin: 17px 0 16px;
   margin: 17px 0 16px;
@@ -5047,6 +5663,8 @@ code {
   padding: 1px 4px 0px;
   padding: 1px 4px 0px;
   padding: 1px 4px 0px;
+  padding: 1px 4px 0px;
+  padding: 1px 4px 0px;
   padding: 0.11111rem 0.27778rem 0.05556rem;
 }
 
@@ -5058,8 +5676,12 @@ dl {
   font-size: 16px;
   font-size: 16px;
   font-size: 16px;
+  font-size: 16px;
+  font-size: 16px;
   font-size: 1rem;
   line-height: 1.6;
+  margin-bottom: 17px;
+  margin-bottom: 17px;
   margin-bottom: 17px;
   margin-bottom: 17px;
   margin-bottom: 17px;
@@ -5073,6 +5695,8 @@ ul {
   margin-left: 17px;
   margin-left: 17px;
   margin-left: 17px;
+  margin-left: 17px;
+  margin-left: 17px;
   margin-left: 1.1rem;
 }
 ul.no-bullet {
@@ -5080,6 +5704,8 @@ ul.no-bullet {
 }
 ul.no-bullet li ul,
 ul.no-bullet li ol {
+  margin-left: 17px;
+  margin-left: 17px;
   margin-left: 17px;
   margin-left: 17px;
   margin-left: 17px;
@@ -5096,6 +5722,8 @@ ul li ol {
   margin-left: 17px;
   margin-left: 17px;
   margin-left: 17px;
+  margin-left: 17px;
+  margin-left: 17px;
   margin-left: 1.11111rem;
   margin-bottom: 0;
 }
@@ -5108,6 +5736,8 @@ ul.square {
   margin-left: 17px;
   margin-left: 17px;
   margin-left: 17px;
+  margin-left: 17px;
+  margin-left: 17px;
   margin-left: 1.1rem;
 }
 ul.circle {
@@ -5116,10 +5746,14 @@ ul.circle {
   margin-left: 17px;
   margin-left: 17px;
   margin-left: 17px;
+  margin-left: 17px;
+  margin-left: 17px;
   margin-left: 1.1rem;
 }
 ul.disc {
   list-style-type: disc;
+  margin-left: 17px;
+  margin-left: 17px;
   margin-left: 17px;
   margin-left: 17px;
   margin-left: 17px;
@@ -5136,10 +5770,14 @@ ol {
   margin-left: 22px;
   margin-left: 22px;
   margin-left: 22px;
+  margin-left: 22px;
+  margin-left: 22px;
   margin-left: 1.4rem;
 }
 ol li ul,
 ol li ol {
+  margin-left: 17px;
+  margin-left: 17px;
   margin-left: 17px;
   margin-left: 17px;
   margin-left: 17px;
@@ -5154,10 +5792,14 @@ dl dt {
   margin-bottom: 4px;
   margin-bottom: 4px;
   margin-bottom: 4px;
+  margin-bottom: 4px;
+  margin-bottom: 4px;
   margin-bottom: 0.3rem;
   font-weight: bold;
 }
 dl dd {
+  margin-bottom: 10px;
+  margin-bottom: 10px;
   margin-bottom: 10px;
   margin-bottom: 10px;
   margin-bottom: 10px;
@@ -5186,7 +5828,11 @@ blockquote {
   margin: 0 0 17px;
   margin: 0 0 17px;
   margin: 0 0 17px;
+  margin: 0 0 17px;
+  margin: 0 0 17px;
   margin: 0 0 1.11111rem;
+  padding: 8px 17px 0 16px;
+  padding: 8px 17px 0 16px;
   padding: 8px 17px 0 16px;
   padding: 8px 17px 0 16px;
   padding: 8px 17px 0 16px;
@@ -5196,6 +5842,8 @@ blockquote {
 }
 blockquote cite {
   display: block;
+  font-size: 11px;
+  font-size: 11px;
   font-size: 11px;
   font-size: 11px;
   font-size: 11px;
@@ -5223,8 +5871,12 @@ blockquote p {
   margin: 0 0 17px 0;
   margin: 0 0 17px 0;
   margin: 0 0 17px 0;
+  margin: 0 0 17px 0;
+  margin: 0 0 17px 0;
   margin: 0 0 1.11111rem 0;
   border: 1px solid #DDDDDD;
+  padding: 8px 10px;
+  padding: 8px 10px;
   padding: 8px 10px;
   padding: 8px 10px;
   padding: 8px 10px;
@@ -5241,6 +5893,8 @@ blockquote p {
   font-size: 13px;
   font-size: 13px;
   font-size: 13px;
+  font-size: 13px;
+  font-size: 13px;
   font-size: 0.83333rem;
 }
 .vevent .summary {
@@ -5251,6 +5905,8 @@ blockquote p {
   text-decoration: none;
   font-weight: bold;
   border: none;
+  padding: 0 0px;
+  padding: 0 0px;
   padding: 0 0px;
   padding: 0 0px;
   padding: 0 0px;
@@ -5287,7 +5943,11 @@ blockquote p {
   height: 40px;
   height: 40px;
   height: 40px;
+  height: 40px;
+  height: 40px;
   height: 2.5rem;
+  line-height: 40px;
+  line-height: 40px;
   line-height: 40px;
   line-height: 40px;
   line-height: 40px;
@@ -5302,10 +5962,14 @@ blockquote p {
   line-height: 40px;
   line-height: 40px;
   line-height: 40px;
+  line-height: 40px;
+  line-height: 40px;
   line-height: 2.5rem;
   margin: 0;
 }
 .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
+  font-size: 16px;
+  font-size: 16px;
   font-size: 16px;
   font-size: 16px;
   font-size: 16px;
@@ -5317,7 +5981,11 @@ blockquote p {
   width: 40px;
   width: 40px;
   width: 40px;
+  width: 40px;
+  width: 40px;
   width: 2.5rem;
+  height: 40px;
+  height: 40px;
   height: 40px;
   height: 40px;
   height: 40px;
@@ -5333,7 +6001,11 @@ blockquote p {
   width: 40px;
   width: 40px;
   width: 40px;
+  width: 40px;
+  width: 40px;
   width: 2.5rem;
+  height: 40px;
+  height: 40px;
   height: 40px;
   height: 40px;
   height: 40px;
@@ -5349,9 +6021,13 @@ blockquote p {
   padding: 0 8px;
   padding: 0 8px;
   padding: 0 8px;
+  padding: 0 8px;
+  padding: 0 8px;
   padding: 0 0.55556rem;
   position: absolute;
   text-align: center;
+  height: 40px;
+  height: 40px;
   height: 40px;
   height: 40px;
   height: 40px;
@@ -5365,9 +6041,13 @@ blockquote p {
   right: 40px;
   right: 40px;
   right: 40px;
+  right: 40px;
+  right: 40px;
   right: 2.5rem;
 }
 .tab-bar-section.right {
+  left: 40px;
+  left: 40px;
   left: 40px;
   left: 40px;
   left: 40px;
@@ -5380,7 +6060,11 @@ blockquote p {
   left: 40px;
   left: 40px;
   left: 40px;
+  left: 40px;
+  left: 40px;
   left: 2.5rem;
+  right: 40px;
+  right: 40px;
   right: 40px;
   right: 40px;
   right: 40px;
@@ -5392,12 +6076,18 @@ blockquote p {
   text-indent: 31px;
   text-indent: 31px;
   text-indent: 31px;
+  text-indent: 31px;
+  text-indent: 31px;
   text-indent: 1.94444rem;
   width: 40px;
   width: 40px;
   width: 40px;
   width: 40px;
+  width: 40px;
+  width: 40px;
   width: 2.5rem;
+  height: 40px;
+  height: 40px;
   height: 40px;
   height: 40px;
   height: 40px;
@@ -5419,13 +6109,19 @@ blockquote p {
   margin-top: -7px;
   margin-top: -7px;
   margin-top: -7px;
+  margin-top: -7px;
+  margin-top: -7px;
   margin-top: -0.44444rem;
+  left: 12px;
+  left: 12px;
   left: 12px;
   left: 12px;
   left: 12px;
   left: 12px;
   left: 0.80556rem;
   box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+  width: 14px;
+  width: 14px;
   width: 14px;
   width: 14px;
   width: 14px;
@@ -5437,6 +6133,8 @@ blockquote p {
 }
 .left-off-canvas-menu {
   -webkit-backface-visibility: hidden;
+  width: 222px;
+  width: 222px;
   width: 222px;
   width: 222px;
   width: 222px;
@@ -5461,6 +6159,8 @@ blockquote p {
 }
 .right-off-canvas-menu {
   -webkit-backface-visibility: hidden;
+  width: 222px;
+  width: 222px;
   width: 222px;
   width: 222px;
   width: 222px;
@@ -5494,9 +6194,13 @@ ul.off-canvas-list li label {
   padding: 4px 13px;
   padding: 4px 13px;
   padding: 4px 13px;
+  padding: 4px 13px;
+  padding: 4px 13px;
   padding: 0.3rem 0.83333rem;
   color: #999999;
   text-transform: uppercase;
+  font-size: 10px;
+  font-size: 10px;
   font-size: 10px;
   font-size: 10px;
   font-size: 10px;
@@ -5510,6 +6214,8 @@ ul.off-canvas-list li label {
 }
 ul.off-canvas-list li a {
   display: block;
+  padding: 10px;
+  padding: 10px;
   padding: 10px;
   padding: 10px;
   padding: 10px;
@@ -5620,9 +6326,13 @@ ul.off-canvas-list li a:hover {
   left: -222px;
   left: -222px;
   left: -222px;
+  left: -222px;
+  left: -222px;
   left: -13.88889rem;
 }
 .no-csstransforms .right-off-canvas-menu {
+  right: -222px;
+  right: -222px;
   right: -222px;
   right: -222px;
   right: -222px;
@@ -5634,9 +6344,13 @@ ul.off-canvas-list li a:hover {
   right: 222px;
   right: 222px;
   right: 222px;
+  right: 222px;
+  right: 222px;
   right: 13.88889rem;
 }
 .no-csstransforms .move-right > .inner-wrap {
+  left: 222px;
+  left: 222px;
   left: 222px;
   left: 222px;
   left: 222px;
@@ -5645,6 +6359,8 @@ ul.off-canvas-list li a:hover {
 }
 .left-submenu {
   -webkit-backface-visibility: hidden;
+  width: 222px;
+  width: 222px;
   width: 222px;
   width: 222px;
   width: 222px;
@@ -5672,6 +6388,8 @@ ul.off-canvas-list li a:hover {
   padding: 4px 13px;
   padding: 4px 13px;
   padding: 4px 13px;
+  padding: 4px 13px;
+  padding: 4px 13px;
   padding: 0.3rem 0.83333rem;
   color: #999999;
   text-transform: uppercase;
@@ -5692,6 +6410,8 @@ ul.off-canvas-list li a:hover {
   margin-right: 8px;
   margin-right: 8px;
   margin-right: 8px;
+  margin-right: 8px;
+  margin-right: 8px;
   margin-right: 0.5rem;
   display: inline;
 }
@@ -5700,6 +6420,8 @@ ul.off-canvas-list li a:hover {
 }
 .right-submenu {
   -webkit-backface-visibility: hidden;
+  width: 222px;
+  width: 222px;
   width: 222px;
   width: 222px;
   width: 222px;
@@ -5727,6 +6449,8 @@ ul.off-canvas-list li a:hover {
   padding: 4px 13px;
   padding: 4px 13px;
   padding: 4px 13px;
+  padding: 4px 13px;
+  padding: 4px 13px;
   padding: 0.3rem 0.83333rem;
   color: #999999;
   text-transform: uppercase;
@@ -5747,6 +6471,8 @@ ul.off-canvas-list li a:hover {
   margin-left: 8px;
   margin-left: 8px;
   margin-left: 8px;
+  margin-left: 8px;
+  margin-left: 8px;
   margin-left: 0.5rem;
   display: inline;
 }
@@ -5759,11 +6485,15 @@ ul.off-canvas-list li a:hover {
   margin-left: 8px;
   margin-left: 8px;
   margin-left: 8px;
+  margin-left: 8px;
+  margin-left: 8px;
   margin-left: 0.5rem;
   display: inline;
 }
 .right-off-canvas-menu ul.off-canvas-list li.has-submenu > a:before {
   content: "\AB";
+  margin-right: 8px;
+  margin-right: 8px;
   margin-right: 8px;
   margin-right: 8px;
   margin-right: 8px;

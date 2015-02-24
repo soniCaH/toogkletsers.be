@@ -1,0 +1,1 @@
+$(document).foundation('interchange', 'reflow');
