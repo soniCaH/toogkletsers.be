@@ -1,0 +1,27 @@
+.page__header {
+  background: $color-green-pastel;
+}
+
+.star-players {
+  @extend .dots_bg;
+  color: #FFF;
+  text-align: center;
+
+  span {
+    background: $color-green-pastel;
+    padding: 0 10px;
+  }
+}
+
+.header__ribbon {
+  a {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -3,9 +3,19 @@
 }
 
 h1 {
+  font-family: Pacifico, $font-family-sans-serif;
   text-transform: uppercase;
 }
 
 .post-title {
   text-align: center;
 }
+
+.dots_bg {
+  @include bg-image-svg-png('icons', 'circle-white');
+
+  background-repeat: repeat-x;
+  background-size: 8px;
+  background-position: 0 50%;
+}
+
