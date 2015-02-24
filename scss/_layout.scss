@@ -25,18 +25,7 @@
 
   span {
     background: $color-green-pastel;
-    padding: 0 20px;
+    padding: 0 10px;
   }
 }
 
-.content {
-  width: 85%;
-  max-width: 1600px;
-  margin: 0 auto;
-  position: relative;
-  background-size: 25%;
-  background-color: #fff;
-  background-image: -webkit-linear-gradient(0deg, rgba(31, 151, 61, 1) 50%, transparent 50%, transparent);
-  background-image: -moz-linear-gradient(0deg, rgba(31, 151, 61, 1) 50%, transparent 50%, transparent);
-  background-image: linear-gradient(90deg, rgba(31, 151, 61, 1) 50%, transparent 50%, transparent);
-}
