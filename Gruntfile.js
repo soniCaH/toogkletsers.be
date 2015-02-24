@@ -132,8 +132,8 @@ module.exports = function (grunt) {
 
       style: {
         files: [
-          '<%= project.root %>/sass/*.scss',
-          '<%= project.root %>/sass/**/*.scss'
+          '<%= project.root %>/scss/*.scss',
+          '<%= project.root %>/scss/**/*.scss'
         ],
         tasks: ['compass:dev', 'pleeease'],
         options: {
