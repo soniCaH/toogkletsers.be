@@ -2,6 +2,12 @@
   background: $color-green-pastel;
 }
 
+.header__testimonials {
+  p {
+    font-size: 0.85rem;
+  }
+}
+
 .star-players {
   @extend .dots_bg;
 
