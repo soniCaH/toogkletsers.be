@@ -20,6 +20,7 @@ module.exports = function (grunt) {
       dev: {
         options: {
           config: 'config.rb',
+          sourcemap: true,
           outputStyle: 'expanded',
           debugInfo: true,
           environment: 'development',
