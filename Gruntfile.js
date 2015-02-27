@@ -42,8 +42,8 @@ module.exports = function (grunt) {
     pleeease: {
       custom: {
         options: {
-          "browsers": ["ie 8"],
-          autoprefixer: {'browsers': ['last 4 versions', 'ios 6']},
+          "browsers": ["ie 6"],
+          autoprefixer: {'browsers': ['last 5 versions', 'ios 6']},
           filters: {'oldIE': true},
           minifier: false,
           pseudoElements: true,
