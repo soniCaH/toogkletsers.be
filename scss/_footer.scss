@@ -5,6 +5,14 @@
 .page__footer {
   background: $color-green;
 
+  a {
+    color: #FFF;
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+
   .footer__events, .footer__contact {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
