@@ -113,6 +113,8 @@ module.exports = function (grunt) {
             '<%= project.root %>/bower_components/modernizr/modernizr.js',
             '<%= project.root %>/bower_components/foundation/js/foundation.min.js',
             '<%= project.root %>/bower_components/foundation/js/foundation/foundation.interchange.js',
+            '<%= project.root %>/_assets/js/isotope.js',
+            '<%= project.root %>/_assets/js/isotope-packery-mode.js',
             '<%= project.root %>/_assets/js/app.js',
           ]
         }

@@ -1,0 +1,27 @@
+.isotope {
+  .item {
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+    header {
+      @extend h2;
+
+      border-top: 1px solid $color-gray-dark;
+      border-bottom: 2px solid $color-gray-dark;
+      color: $color-gray-dark;
+      font-size: 2rem;
+      padding: 0.2em 0;
+      margin-bottom: 0.5em;
+    }
+
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      &+ header {
+        margin-top: 0.5em;
+      }
+    }
+  }
+}
+
