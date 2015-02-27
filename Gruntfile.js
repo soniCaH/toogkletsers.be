@@ -42,15 +42,12 @@ module.exports = function (grunt) {
     pleeease: {
       custom: {
         options: {
-          "browsers": ["ie 6"],
-          autoprefixer: {'browsers': ['last 5 versions', 'ios 6']},
-          filters: {'oldIE': true},
-          minifier: false,
+          'browsers': ['last 2 versions'],
+          autoprefixer: {'browsers': ['ie 6', 'last 4 versions']},
           pseudoElements: true,
           opacity: true,
+          minifier: false,
           mqpacker: true,
-          calc: true,
-          colors: true
         },
         files: {
           '<%= project.root %>/css/app.css': '<%= project.root %>/css/app.css'
@@ -164,7 +161,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'svgmin',
     'grunticon',
-    'imagemin',
+    // 'imagemin',
     'compass:dev',
     'pleeease',
     'uglify'
