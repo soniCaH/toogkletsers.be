@@ -162,7 +162,7 @@ module.exports = function (grunt) {
   grunt.registerTask('build', [
     'svgmin',
     'grunticon',
-    // 'imagemin',
+    'imagemin',
     'compass:dev',
     'pleeease',
     'uglify'
