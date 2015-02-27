@@ -1,4 +1,6 @@
+@import "variables";
 @import "settings";
+
 // @import "foundation";
 
 // Or selectively include components
@@ -39,14 +41,12 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
-
 @import "functions";
 
 @import "fonts";
 
 @import "general";
 
-@import "variables";
 @import "layout";
 
 @import "header";

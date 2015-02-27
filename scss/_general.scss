@@ -18,3 +18,40 @@ h1 {
   background-position: 0 50%;
 }
 
+@media #{$medium-up} {
+  .csstransforms {
+    .rotated-text {
+      display: inline-block;
+      overflow: hidden;
+      line-height: 1.5;
+
+      h2 {
+        transform: translate(0, 75%) rotate(-45deg);
+
+        @media #{$medium-only} {
+          transform: translate(25%, 75%) rotate(-45deg);
+        }
+
+        display: inline-block;
+        white-space: nowrap;
+        transform-origin: 0 0;
+        text-align: center;
+
+        &:after {
+         content: "";
+         float: left;
+         margin-top: 100%;
+       }
+     }
+   }
+ }
+}
+
+ul {
+  margin: 1rem 0;
+  list-style: none;
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+}

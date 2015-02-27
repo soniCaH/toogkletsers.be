@@ -1,5 +1,38 @@
+.page__footer, .page__footer h2 {
+  color: #FFF;
+}
+
 .page__footer {
   background: $color-green;
+
+  .footer__events, .footer__contact {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+
+    @media #{$large-up} {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    @media #{$medium-up} {
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+
+  .footer__events {
+    @include bg-image-svg-png('icons', 'circle-white');
+
+    background-repeat: repeat-x;
+    background-size: 8px;
+    background-position: 0 100%;
+
+
+    @media #{$large-up} {
+      background: none !important;
+    }
+  }
 
   .sponsors {
     background: $color-green-darkest;
