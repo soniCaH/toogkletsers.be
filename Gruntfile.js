@@ -99,6 +99,8 @@ module.exports = function (grunt) {
       }
     },
 
+    clean: ["css/"],
+
     // JS
     uglify: {
       options: {
@@ -152,6 +154,8 @@ module.exports = function (grunt) {
   });
 
   grunt.loadNpmTasks('grunt-contrib-compass');
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-grunticon');
   grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -160,6 +164,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
   grunt.registerTask('build', [
+    'clean',
     'svgmin',
     'grunticon',
     'imagemin',
