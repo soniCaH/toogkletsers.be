@@ -18,5 +18,6 @@ Using
 Installation:
 
 - bower install
+- bundle install
 - npm install
 - grunt (development)
