@@ -137,7 +137,7 @@ module.exports = function (grunt) {
           '<%= project.root %>/scss/*.scss',
           '<%= project.root %>/scss/**/*.scss'
         ],
-        tasks: ['compass:dev', 'pleeease'],
+        tasks: ['clean', 'compass:dev', 'pleeease'],
         options: {
           livereload: true
         }
