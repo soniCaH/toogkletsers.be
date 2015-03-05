@@ -59,7 +59,7 @@ module.exports = function (grunt) {
     imagemin: {
       dynamic: {
         options: {
-          optimizationLevel: 5,
+          optimizationLevel: 7,
           svgoPlugins: [{removeViewBox: true}],
           use: [mozjpeg()]
         },
@@ -163,15 +163,24 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
 
-  grunt.registerTask('build', [
+  grunt.registerTask('dev', [
     'clean',
     'svgmin',
     'grunticon',
-    'imagemin',
     'compass:dev',
     'pleeease',
     'uglify'
   ]);
 
-  grunt.registerTask('default', ['build', 'watch']);
+  grunt.registerTask('build', [
+    'clean',
+    'svgmin',
+    'grunticon',
+    'imagemin',
+    'compass:prod',
+    'pleeease',
+    'uglify'
+  ]);
+
+  grunt.registerTask('default', ['dev', 'watch']);
 }
