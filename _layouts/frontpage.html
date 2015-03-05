@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
-  <body>
-    <header class="row page__header">
-      <div class="small-12 columns">
-        {% include header.html %}
+{% include head.html %}
+<body>
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PGXW3M"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PGXW3M');</script>
+  <!-- End Google Tag Manager -->
 
-        {% include header-front.html %}
-      </div>
-    </header>
 
-    <div class="row">
-      {{ content }}
+  <header class="row page__header">
+    <div class="small-12 columns">
+      {% include header.html %}
+
+      {% include header-front.html %}
     </div>
+  </header>
 
-    <footer class="row page__footer">
-        {% include footer.html %}
-        {% include sponsors.html %}
-    </footer>
-  </body>
+  <div class="row">
+    {{ content }}
+  </div>
+  <footer class="row page__footer">
+    {% include footer.html %}
+    {% include sponsors.html %}
+  </footer>
 
   <script src="js/app.min.js"></script>
+</body>
 </html>
