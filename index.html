@@ -4,8 +4,8 @@ layout: frontpage
 
 <div class="isotope row">
   {% for post in site.posts %}
-    <article class="item medium-{{ post.medium-cols }} large-{{ post.large-cols }} columns">
-      <header>{{ post.title }}</header>
-      <div>{{ post.content }}</div>
+    <article itemscope itemtype="http://schema.org/Article" class="item medium-{{ post.medium-cols }} large-{{ post.large-cols }} columns">
+      <header itemprop="name">{{ post.title }}</header>
+      <div itemprop="articleBody">{{ post.content }}</div>
   </article>
 {% endfor %}
