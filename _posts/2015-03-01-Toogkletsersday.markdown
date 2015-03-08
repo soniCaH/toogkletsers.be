@@ -1,8 +1,10 @@
 ---
 title:        7 maart 2015 = Toogkletsersday
 date:         2015-03-01 17:00:00
+image:
 medium-cols:  12
 large-cols:   12
+published:    FALSE
 ---
 <p>We zullen een #toogkletsersday organiseren waarbij we het gezellig samenzijn zullen koppelen aan een bezoekje / ploegfoto met onze commerciële partners om onze nieuwe uitrusting voor te stellen. Dit zal doorgaan op zaterdag 07/03/2015.</p>
 <p>Hieronder de dagplanning:</p>
