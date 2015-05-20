@@ -6,6 +6,6 @@ medium-cols:  12
 large-cols:   6
 published:    TRUE
 ---
-<p>Op 1 mei zullen De Toogkletsers een zaalvoetbaltornooi organiseren met enkel Elewijtse ploegen.<br/>
-  De winnaar van dit tornooi zal naar huis gaan met de beker van Elewijt, en nog belangrijker, de titel van "Beste Zaalvoetbalploeg van Elewijt".</p>
-<p>Totnogtoe zijn er 3 kandidaten die zeker zullen deelnemen: Jeugdhuis De Caravan, Squadra Elewijt en natuurlijk de Toogkletsers zelf. Als er nog Elewijtse ploegen interesse zouden hebben om te vechten voor hun trots: Graag zo snel mogelijk een seintje!</p>
+<p>Op 1 mei organiseerden De Toogkletsers een zaalvoetbaltornooi met enkel Elewijtse ploegen.<br/>
+  De winnaar van dit tornooi ging niet alleen met de beker van Elewijt naar huis, maar nog belangrijker, de titel van "Beste Zaalvoetbalploeg van Elewijt".</p>
+<p>Na een chaotisch begin, met enkele uitslapers aan de kant van JH De Caravan, konden de rooshemden toch nog profiteren van het gunstige play-off systeem om met de overwinning te gaan lopen, voor de neus van Squadra Elewijt en De Toogkletsers</p>
