@@ -1,11 +1,12 @@
 $(document).foundation('interchange', 'reflow');
 
 
-$( function() {
+var $container = $('.isotope').isotope({
+  layoutMode: 'packery',
+  itemSelector: '.item'
+});
 
-  $('.isotope').isotope({
-    layoutMode: 'packery',
-    itemSelector: '.item'
-  });
-
+// layout Isotope again after all images have loaded
+$container.imagesLoaded( function() {
+  $container.isotope('layout');
 });
