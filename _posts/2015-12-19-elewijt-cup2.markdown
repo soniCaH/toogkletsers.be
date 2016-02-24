@@ -19,6 +19,7 @@ published:    TRUE
 
 <p>In de kleine finale konden De Tookletsers geen eremetaal meer veroveren. Douw Duvels wonnen de wedstrijd met 2-1</p>
 
+<h4>Uitslagen:</h4>
 <table width="100%" border="0">
     <tbody>
         <tr><th colspan="3">Klassement:</th></tr>
@@ -50,7 +51,7 @@ published:    TRUE
     </tbody>
 </table>
 
-Rangschikking:
+<h4>Rangschikking:</h4>
 <table width="100%" border="0">
     <tbody>
         <tr>
