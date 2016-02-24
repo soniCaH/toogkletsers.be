@@ -17,12 +17,12 @@ published:    TRUE
 
 <p>Na een spektakelrijke wedstrijd, was het Squadra Elewijt dat revenge kon nemen voor de vorige editie. Na een 6-4 overwinning zijn zij voorlopig de beste ploeg van Elewijt.</p>
 
-<p>In de kleine finale konden De Tookletsers geen eremetaal meer veroveren. Douw Duvels wonnen de wedstrijd met 2-1</p>
+<p>In de kleine finale konden De Tookletsers geen eremetaal meer veroveren. Douw Duvels wonnen de wedstrijd met 2-1.</p>
 
-<h4>Uitslagen:</h4>
+<h3>Uitslagen:</h3>
 <table width="100%" border="0">
     <tbody>
-        <tr><th colspan="3">Klassement:</th></tr>
+        <tr><td colspan="3"><strong>Klassement:</strong></td></tr>
         <tr>
             <td>De Toogkletsers</td><td>1 - 0</td><td>Douw Duvels</td>
         </tr>
@@ -41,17 +41,17 @@ published:    TRUE
         <tr>
             <td>Douw Duvels</td><td>2 - 1</td><td>JH De Caravan</td>
         </tr>
-        <tr><th colspan="3">Play-offs:</th></tr>
+        <tr><th colspan="3"><strong>Play-offs:</strong></th></tr>
         <tr>
             <td>De Toogkletsers</td><td>1 - 2</td><td>Douw Duvels</td>
         </tr>
         <tr>
-            <td>Squadra Elewijt</td><td>6 - 4</td>JH De Caravan<td></td>
+            <td>Squadra Elewijt</td><td>6 - 4</td><td>JH De Caravan</td>
         </tr>
     </tbody>
 </table>
 
-<h4>Rangschikking:</h4>
+<h3>Rangschikking:</h3>
 <table width="100%" border="0">
     <tbody>
         <tr>
