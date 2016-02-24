@@ -7,6 +7,6 @@ var $container = $('.isotope').isotope({
 });
 
 // layout Isotope again after all images have loaded
-$container.imagesLoaded( function() {
+$container.imagesLoaded().progress( function() {
   $container.isotope('layout');
 });
