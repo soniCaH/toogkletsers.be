@@ -19,9 +19,9 @@ published:    TRUE
 
 <p>In de kleine finale konden De Tookletsers geen eremetaal meer veroveren. Douw Duvels wonnen de wedstrijd met 2-1</p>
 
-Klassement:
 <table width="100%" border="0">
     <tbody>
+        <tr><th colspan="3">Klassement:</th></tr>
         <tr>
             <td>De Toogkletsers</td><td>1 - 0</td><td>Douw Duvels</td>
         </tr>
@@ -40,12 +40,7 @@ Klassement:
         <tr>
             <td>Douw Duvels</td><td>2 - 1</td><td>JH De Caravan</td>
         </tr>
-    </tbody>
-</table>
-
-Play-offs:
-<table width="100%" border="0">
-    <tbody>
+        <tr><th colspan="3">Play-offs:</th></tr>
         <tr>
             <td>De Toogkletsers</td><td>1 - 2</td><td>Douw Duvels</td>
         </tr>
