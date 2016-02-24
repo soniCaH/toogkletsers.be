@@ -115,6 +115,7 @@ module.exports = function (grunt) {
             '<%= project.root %>/bower_components/foundation/js/foundation/foundation.interchange.js',
             '<%= project.root %>/_assets/js/isotope.js',
             '<%= project.root %>/_assets/js/isotope-packery-mode.js',
+            '<%= project.root %>/bower_components/imagesloaded/imagesloaded.pkgd.min.js',
             '<%= project.root %>/_assets/js/app.js',
           ]
         }
