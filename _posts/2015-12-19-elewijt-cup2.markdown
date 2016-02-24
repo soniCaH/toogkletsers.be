@@ -1,9 +1,9 @@
 ---
 title:        19 December 2015 - Elewijt Cup 2
 date:         2015-12-19
-image:        images/posts/ElewijtCup2.jpg
+image:        
 medium-cols:  12
-large-cols:   12
+large-cols:   6
 published:    TRUE
 ---
 <p>Op zaterdag 19 mei 2015 organiseerden De Toogkletsers hun tweede "Elewijt Cup", een zaalvoetbaltornooi met enkel Elewijtse ploegen.<br/>
@@ -41,7 +41,7 @@ published:    TRUE
         <tr>
             <td>Douw Duvels</td><td>2 - 1</td><td>JH De Caravan</td>
         </tr>
-        <tr><th colspan="3"><strong>Play-offs:</strong></th></tr>
+        <tr><td colspan="3"><strong>Play-offs:</strong></td></tr>
         <tr>
             <td>De Toogkletsers</td><td>1 - 2</td><td>Douw Duvels</td>
         </tr>
